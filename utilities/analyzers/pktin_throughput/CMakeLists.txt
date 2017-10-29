@@ -1,0 +1,2 @@
+add_executable(pktin_throughput_analyzer pktin_throughput_analyzer.cpp)
+target_link_libraries(pktin_throughput_analyzer util)

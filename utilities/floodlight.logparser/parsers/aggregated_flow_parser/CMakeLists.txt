@@ -1,0 +1,8 @@
+PROJECT(aggregated_flow_parser)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+add_library(aggregated_flow SHARED aggregated_flow.cpp)
+target_link_libraries(aggregated_flow entity)
+add_library(aggregated_flow_parser SHARED aggregated_flow_parser.cpp)
+target_link_libraries(aggregated_flow_parser aggregated_flow parser)
+

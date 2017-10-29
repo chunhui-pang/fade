@@ -1,0 +1,2 @@
+add_executable(delay_analyzer delay_analyzer.cpp)
+target_link_libraries(delay_analyzer util)

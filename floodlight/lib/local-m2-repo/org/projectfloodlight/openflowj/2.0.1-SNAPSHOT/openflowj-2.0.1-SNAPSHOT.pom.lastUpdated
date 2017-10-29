@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 16 19:29:24 CST 2017
+file\:///home/chunhui/workspace/fad/floodlight/lib/m2-repo/.error=
+file\:///home/chunhui/workspace/fad/floodlight/lib/m2-repo/.lastUpdated=1489663764963
+http\://maven.restlet.com/.error=Could not transfer artifact org.projectfloodlight\:openflowj\:pom\:2.0.1-SNAPSHOT from/to maven-restlet (http\://maven.restlet.com)\: maven.restlet.com
+@default-maven-restlet-http\://maven.restlet.com/.lastUpdated=1489657055931
+https\://oss.sonatype.org/content/repositories/snapshots/.error=Could not transfer artifact org.projectfloodlight\:openflowj\:pom\:2.0.1-SNAPSHOT from/to sonatype-oss-snapshot (https\://oss.sonatype.org/content/repositories/snapshots)\: oss.sonatype.org
+@default-sonatype-oss-snapshot-https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1489657055953

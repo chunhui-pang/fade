@@ -1,0 +1,2 @@
+add_executable(throughput_analyzer throughput_analyzer.cpp)
+target_link_libraries(throughput_analyzer util)

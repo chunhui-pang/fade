@@ -1,0 +1,4 @@
+add_library(heuristic_solver heuristic_solver.cpp)
+
+add_library(greedy_fill_ingress greedy_fill_ingress.cpp)
+target_link_libraries(greedy_fill_ingress heuristic_solver aggregated_flow pswitch)

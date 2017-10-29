@@ -1,0 +1,20 @@
+cmake_minimum_required (VERSION 2.6)
+project (Internet2-FIB-Analyzer)
+SET (Internet2-FIB-Analyzer_VERSION_MAJOR 1)
+SET (Internet2-FIB-Analyzer_VERSION_MINOR 0)
+SET (GCC_COVERAGE_COMPILE_FLAGS "-std=c++11")
+SET (CMAKE_CXX_FLAGS "${GCC_COVERAGE_COMPILE_FLAGS}")
+
+if (DEBUG)
+  message ("enable debug mode...")
+  SET (GCC_COVERAGE_COMPILE_FLAGS "-std=c++11 -g")
+else ()
+  message ("g++ optimize to -O3")
+  SET (GCC_COVERAGE_COMPILE_FLAGS "-std=c++11 -O3")
+endif ()
+
+SET (CMAKE_CXX_FLAGS  "${GCC_COVERAGE_COMPILE_FLAGS}" )
+
+add_subdirectory("fib-parser")
+add_subdirectory("ilp-builder")
+add_subdirectory("gurobi-result-sorter")

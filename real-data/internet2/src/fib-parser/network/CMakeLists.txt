@@ -1,0 +1,5 @@
+add_library (interface interface.cpp)
+add_library (pswitch pswitch.cpp)
+add_library (rule rule.cpp)
+add_library (rule_match rule_match.cpp)
+target_link_libraries(rule rule_match)

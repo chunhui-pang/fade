@@ -1,0 +1,8 @@
+PROJECT(aggregated_flow_probe_parser)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+add_library(aggregated_flow_probe SHARED aggregated_flow_probe.cpp)
+target_link_libraries(aggregated_flow_probe entity)
+add_library(aggregated_flow_probe_parser SHARED aggregated_flow_probe_parser.cpp)
+target_link_libraries(aggregated_flow_probe_parser aggregated_flow_probe parser)
+

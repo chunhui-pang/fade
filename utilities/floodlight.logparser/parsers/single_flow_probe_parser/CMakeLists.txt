@@ -1,0 +1,8 @@
+PROJECT(single_flow_probe_parser)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+add_library(single_flow_probe SHARED single_flow_probe.cpp)
+target_link_libraries(single_flow_probe entity)
+add_library(single_flow_probe_parser SHARED single_flow_probe_parser.cpp)
+target_link_libraries(single_flow_probe_parser single_flow_probe parser)
+

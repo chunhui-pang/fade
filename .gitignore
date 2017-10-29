@@ -1,0 +1,49 @@
+[global]
+*~
+*.pyc
+
+[pjournal?paper tex]
+*paper/**/*.aux
+*paper/**/*.bbl
+*paper/**/*.blg
+*paper/**/*.fdb_latexmk
+*paper/**/*.fls
+*paper/**/*.log
+*paper/**/*.out
+
+
+[slides tex]
+slides/**/*.aux
+slides/**/*.bbl
+slides/**/*.blg
+slides/**/*.fdb_latexmk
+slides/**/*.fls
+slides/**/*.log
+slides/**/*.nav
+slides/**/*.snm
+slides/**/*.toc
+slides/**/*.out
+
+[floodlight files]
+floodlight*/var/**/db.lck
+floodlight*/target
+
+[experiment data]
+experiment-data/
+
+real-data/internet2/**/build/
+real-data/internet2/src/**/GPATH
+real-data/internet2/src/**/GRTAGS
+real-data/internet2/src/**/GTAGS
+
+[utilities]
+utilities/**/build
+utilities/**/GPATH
+utilities/**/GRTAGS
+utilities/**/GTAGS
+
+[IDEA]
+floodlight/.idea/
+floodlight/floodlight.iml
+
+

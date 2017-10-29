@@ -1,0 +1,4588 @@
+Physical interface: lc-0/0/0, Enabled, Physical link is Up
+  Interface index: 168, SNMP ifIndex: 550
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-0/0/0.32769 (Index 378) (SNMP ifIndex 551)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-0/0/0, Enabled, Physical link is Up
+  Interface index: 173, SNMP ifIndex: 559
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-0/0/0.16383 (Index 383) (SNMP ifIndex 564)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: pfh-0/0/0, Enabled, Physical link is Up
+  Interface index: 172, SNMP ifIndex: 558
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfh-0/0/0.16383 (Index 382) (SNMP ifIndex 561)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/0/0, Administratively down, Physical link is Down
+  Interface index: 210, SNMP ifIndex: 574
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:00, Hardware address: 54:e0:32:7d:28:00
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-0/0/1, Enabled, Physical link is Up
+  Interface index: 211, SNMP ifIndex: 575
+  Description: BACKBONE: NEWY-WASH 10GE of LAG ae3 | I2-NEWY32AOA-WASH-10GE-07612
+  Link-level type: Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c3, Hardware address: 54:e0:32:7d:28:01
+  Last flapped   : 2016-05-27 07:36:35 UTC (1d 08:15 ago)
+  Input rate     : 1048 bps (1 pps)
+  Output rate    : 16888 bps (3 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/1.10 (Index 493) (SNMP ifIndex 625)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Input packets : 184875856
+    Output packets: 392975998
+    Protocol aenet, AE bundle: ae3.10
+
+  Logical interface xe-0/0/1.20 (Index 492) (SNMP ifIndex 624)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Input packets : 365660370
+    Output packets: 105440979
+    Protocol aenet, AE bundle: ae3.20
+
+  Logical interface xe-0/0/1.32767 (Index 491) (SNMP ifIndex 622)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae3.32767
+
+Physical interface: xe-0/0/2, Enabled, Physical link is Up
+  Interface index: 212, SNMP ifIndex: 576
+  Description: BACKBONE: CLEV-WASH 10GE of LAG ae0 | I2-CLEV-WASH-10GE-08889
+  Link-level type: Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c0, Hardware address: 54:e0:32:7d:28:02
+  Last flapped   : 2016-01-09 10:19:28 UTC (20w0d 05:32 ago)
+  Input rate     : 584 bps (0 pps)
+  Output rate    : 1952 bps (2 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/2.10 (Index 496) (SNMP ifIndex 629)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Input packets : 22965867
+    Output packets: 10497105
+    Protocol aenet, AE bundle: ae0.10
+
+  Logical interface xe-0/0/2.20 (Index 495) (SNMP ifIndex 628)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Input packets : 28206497
+    Output packets: 17427940
+    Protocol aenet, AE bundle: ae0.20
+
+  Logical interface xe-0/0/2.32767 (Index 494) (SNMP ifIndex 626)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae0.32767
+
+Physical interface: xe-0/0/3, Enabled, Physical link is Up
+  Interface index: 213, SNMP ifIndex: 577
+  Description: OARnet via Internet2 DWS | I2-CLEV-WASH-10GE-04179
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:03, Hardware address: 54:e0:32:7d:28:03
+  Last flapped   : 2016-05-22 08:39:54 UTC (6d 07:12 ago)
+  Input rate     : 4840 bps (7 pps)
+  Output rate    : 9536 bps (6 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/0/3.359 (Index 498) (SNMP ifIndex 631)
+    Description: [RE]OARnet R&E VLAN | I2-S11935
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.359 ]  Encapsulation: ENET2
+    Input packets : 366161
+    Output packets: 1435383
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:d4b::/64, Local: 2001:468:ff:d4b::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:677d:2803
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/0/3.585 (Index 499) (SNMP ifIndex 632)
+    Description: [TR-CPS] MERIT via MAX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.585 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 84038755
+    Output packets: 84524614
+    Protocol ccc, MTU: 9192
+
+  Logical interface xe-0/0/3.1005 (Index 501) (SNMP ifIndex 636)
+    Description: [RE][CPS] Merit via Cleveland
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1005 ]  Encapsulation: ENET2
+    Input packets : 38048928
+    Output packets: 589465757
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ffff:954::/64, Local: 2001:468:ffff:954::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:ed7d:2803
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/0/3.32767 (Index 502) (SNMP ifIndex 638)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: lc-0/1/0, Enabled, Physical link is Up
+  Interface index: 169, SNMP ifIndex: 552
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-0/1/0.32769 (Index 379) (SNMP ifIndex 553)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-0/1/0, Enabled, Physical link is Up
+  Interface index: 174, SNMP ifIndex: 560
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-0/1/0.16383 (Index 384) (SNMP ifIndex 565)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/1/0, Enabled, Physical link is Up
+  Interface index: 214, SNMP ifIndex: 578
+  Description: Temp connection for TechCon 2015 | [NO-MONITOR] 78:147
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:29, Hardware address: 54:e0:32:7d:28:29
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/0.274 (Index 503) (SNMP ifIndex 618)
+    Description: NYJMC mgmt access | [NO-MONITOR]
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.274 ]  Encapsulation: ENET2
+    Input packets : 59919089
+    Output packets: 50540069
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.30.46/31, Local: 64.57.30.47
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/1/0.32767 (Index 504) (SNMP ifIndex 641)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/1/1, Administratively down, Physical link is Down
+  Interface index: 215, SNMP ifIndex: 579
+  Description: LAG: ae2 TR-CPS TransitRail 10G to asbn0:xe-1/1/0 | I2-ASHB-WASH-10GE-07689
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:2a, Hardware address: 54:e0:32:7d:28:2a
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-0/1/2, Enabled, Physical link is Down
+  Interface index: 216, SNMP ifIndex: 580
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 00:23:9c:d5:a1:9c, Hardware address: 54:e0:32:7d:28:2b
+  Last flapped   : 2015-12-19 03:54:02 UTC (23w0d 11:57 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                        13
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/1/2.32767 (Index 371) (SNMP ifIndex 670)
+    Flags: Device-Down SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/1/3, Enabled, Physical link is Down
+  Interface index: 217, SNMP ifIndex: 581
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:2c, Hardware address: 54:e0:32:7d:28:2c
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: lc-0/2/0, Enabled, Physical link is Up
+  Interface index: 170, SNMP ifIndex: 554
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-0/2/0.32769 (Index 380) (SNMP ifIndex 555)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-0/2/0, Enabled, Physical link is Up
+  Interface index: 175, SNMP ifIndex: 562
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-0/2/0.16383 (Index 385) (SNMP ifIndex 566)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/2/0, Enabled, Physical link is Down
+  Interface index: 218, SNMP ifIndex: 582
+  Description: Available 10G - Formerly Drexel | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:52, Hardware address: 54:e0:32:7d:28:52
+  Last flapped   : 2015-10-06 15:50:05 UTC (33w4d 00:01 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         2
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-0/2/1, Administratively down, Physical link is Down
+  Interface index: 219, SNMP ifIndex: 583
+  Description: PSC/3ROX/Drexel | I2-PITT-WASH-10GE-05794
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:53, Hardware address: 54:e0:32:7d:28:53
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/2/1.506 (Index 517) (SNMP ifIndex 680)
+    Description: [RE]3ROX/PSC IPv4 R&E
+    Flags: Device-Down SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.506 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Dest-route-down Is-Preferred Is-Primary
+        Destination: 192.88.115.24/31, Local: 192.88.115.25
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Dest-route-down Is-Preferred Is-Primary
+        Destination: 2001:5e8:0:fffd:0:13:2:0/120,
+        Local: 2001:5e8:0:fffd:0:13:2:2
+        INET6 Address Flags: Tentative
+      Addresses, Flags: Dest-route-down Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:fa7d:2853
+        INET6 Address Flags: Tentative
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/2/1.509 (Index 518) (SNMP ifIndex 681)
+    Description: [RE][CPS] 3ROX/PSC IPv6
+    Flags: Device-Down SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.509 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 1500
+      Flags: User-MTU
+      Addresses, Flags: Dest-route-down Is-Preferred Is-Primary
+        Destination: 2001:5e8:0:fffd:0:16:3:0/120,
+        Local: 2001:5e8:0:fffd:0:16:3:2
+        INET6 Address Flags: Tentative
+      Addresses, Flags: Dest-route-down Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:fd7d:2853
+        INET6 Address Flags: Tentative
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/2/1.2002 (Index 519) (SNMP ifIndex 683)
+    Description: [RE][NETPLUS] I2-S06652 PennState to SHI | I2-NEWY32AOA-WASH-LSP-06650
+    Flags: Device-Down SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2002 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9192
+
+  Logical interface xe-0/2/1.32767 (Index 520) (SNMP ifIndex 684)
+    Flags: Device-Down SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/2/2, Administratively down, Physical link is Down
+  Interface index: 220, SNMP ifIndex: 584
+  Description: MAGPI ION Service | I2-PHIL-WASH-10GE-05795
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:54, Hardware address: 54:e0:32:7d:28:54
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/2/2.32767 (Index 521) (SNMP ifIndex 701)
+    Flags: Device-Down SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/2/3, Enabled, Physical link is Down
+  Interface index: 221, SNMP ifIndex: 585
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:55, Hardware address: 54:e0:32:7d:28:55
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: lc-0/3/0, Enabled, Physical link is Up
+  Interface index: 171, SNMP ifIndex: 556
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-0/3/0.32769 (Index 381) (SNMP ifIndex 557)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-0/3/0, Enabled, Physical link is Up
+  Interface index: 176, SNMP ifIndex: 563
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-0/3/0.16383 (Index 386) (SNMP ifIndex 567)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/3/0, Enabled, Physical link is Up
+  Interface index: 222, SNMP ifIndex: 586
+  Description: Protogeni HP5400 Switch
+  Link-level type: Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:7b, Hardware address: 54:e0:32:7d:28:7b
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-0/3/1, Enabled, Physical link is Up
+  Interface index: 223, SNMP ifIndex: 587
+  Description: Observatory 10GE to HP5406zl B3
+  Link-level type: Flexible-Ethernet, MTU: 9180, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:7c, Hardware address: 54:e0:32:7d:28:7c
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 15276896 bps (1460 pps)
+  Output rate    : 59256 bps (32 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/3/1.2 (Index 522) (SNMP ifIndex 1059)
+    Description: WIX Management
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2 ]  Encapsulation: ENET2
+    Input packets : 24846637968
+    Output packets: 3642166686
+    Protocol inet, MTU: 9162
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.32.154.64/26, Local: 198.32.154.126,
+        Broadcast: 198.32.154.127
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.11 (Index 523) (SNMP ifIndex 711)
+    Description: [RE]WASH Observatory vlan
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.11 ]  Encapsulation: ENET2
+    Input packets : 38563712192
+    Output packets: 52580950009
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.16.0/28, Local: 64.57.16.1, Broadcast: 64.57.16.15
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:11::/64, Local: 2001:468:9:11::1
+      Addresses
+        Destination: 2001:468:9:11::/64, Local: 2001:468:9:11::16:1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:b7d:287c
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.13 (Index 524) (SNMP ifIndex 712)
+    Description: [RE]HOPI WASH Management
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.13 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 1644942
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.0/28, Local: 64.57.23.1, Broadcast: 64.57.23.15
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.20 (Index 525) (SNMP ifIndex 713)
+    Description: [RE]WASH VINI Mgmt
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 1255970
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.18.248/29, Local: 64.57.18.249,
+        Broadcast: 64.57.18.255
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.21 (Index 526) (SNMP ifIndex 714)
+    Description: [RE]WASH VINI Data
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.21 ]  Encapsulation: ENET2
+    Input packets : 1663504
+    Output packets: 1657792
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.18.128/28, Local: 64.57.18.129,
+        Broadcast: 64.57.18.143
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.30 (Index 527) (SNMP ifIndex 715)
+    Description: [RE]WASH SPP Port 8
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.30 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 1265449
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.192/30, Local: 64.57.23.193,
+        Broadcast: 64.57.23.195
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.31 (Index 528) (SNMP ifIndex 716)
+    Description: [RE]WASH SPP Port 9
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.31 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 1045716
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.196/30, Local: 64.57.23.197,
+        Broadcast: 64.57.23.199
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.32 (Index 529) (SNMP ifIndex 717)
+    Description: [RE]WASH SPP Port 10
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.32 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 1045750
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.200/30, Local: 64.57.23.201,
+        Broadcast: 64.57.23.203
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.33 (Index 530) (SNMP ifIndex 718)
+    Description: [RE]WASH GENI Mgmt network
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.33 ]  Encapsulation: ENET2
+    Input packets : 337905538
+    Output packets: 335229902
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.160/28, Local: 64.57.23.161,
+        Broadcast: 64.57.23.175
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.40 (Index 531) (SNMP ifIndex 719)
+    Description: [RE]WASH 100x100 Inband
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.40 ]  Encapsulation: ENET2
+    Input packets : 2186114
+    Output packets: 3016252
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.88/29, Local: 64.57.23.89, Broadcast: 64.57.23.95
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.42 (Index 533) (SNMP ifIndex 721)
+    Description: [RE]WASH 100x100 Mgmt
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.42 ]  Encapsulation: ENET2
+    Input packets : 26237
+    Output packets: 1269455
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.120/29, Local: 64.57.23.121,
+        Broadcast: 64.57.23.127
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.60 (Index 534) (SNMP ifIndex 723)
+    Description: [RE][CPS] connection to nms-rpsv [NO-MONITOR]
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.60 ]  Encapsulation: ENET2
+    Input packets : 33682471
+    Output packets: 33903263
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.29.36/30, Local: 64.57.29.37, Broadcast: 64.57.29.39
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:60::/64, Local: 2001:468:9:60::1
+      Addresses
+        Destination: 2001:468:9:60::/64, Local: 2001:468:9:60::29:37
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:3c7d:287c
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.90 (Index 537) (SNMP ifIndex 726)
+    Description: [RE]nms-rpsv.wash (lhcone)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.90 ]  Encapsulation: ENET2
+    Input packets : 1393
+    Output packets: 0
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Primary
+        Local: 10.10.10.190
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.95 (Index 538) (SNMP ifIndex 727)
+    Description: [RE]nms-rspv.wash (transit vrf) [PENDING]
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.95 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 7232295
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 10.10.10.242/31, Local: 10.10.10.242
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ef01:200::14/127, Local: 2001:468:ef01:200::14
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:5f7d:287c
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface xe-0/3/1.2100 (Index 539) (SNMP ifIndex 728)
+    Description: [RE]OBS to ION 2100
+    Flags: Down SNMP-Traps CCC-Down 0x4000 VLAN-Tag [ 0x8100.2100 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9180
+
+  Logical interface xe-0/3/1.2102 (Index 540) (SNMP ifIndex 729)
+    Description: [RE]OBS to ION 2102
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2102 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 2
+    Protocol ccc, MTU: 9180
+
+  Logical interface xe-0/3/1.32767 (Index 541) (SNMP ifIndex 730)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-0/3/2, Enabled, Physical link is Up
+  Interface index: 224, SNMP ifIndex: 588
+  Description: LAG: ae1 TR-CPS TransitRail 10G to asbn0:xe-3/0/1 | I2-ASHB-WASH-10GE-07687
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c1, Hardware address: 54:e0:32:7d:28:7d
+  Last flapped   : 2016-04-28 06:59:37 UTC (4w2d 08:52 ago)
+  Input rate     : 53339432 bps (7498 pps)
+  Output rate    : 3889608 bps (1627 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         3
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-0/3/2.4 (Index 514) (SNMP ifIndex 596)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4 ]  Encapsulation: ENET2
+    Input packets : 10813919887
+    Output packets: 6013488873
+    Protocol aenet, AE bundle: ae1.4
+
+  Logical interface xe-0/3/2.182 (Index 550) (SNMP ifIndex 740)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.182 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.182
+
+  Logical interface xe-0/3/2.186 (Index 549) (SNMP ifIndex 739)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.186 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 214603569620
+    Output packets: 17988663
+    Protocol aenet, AE bundle: ae1.186
+
+  Logical interface xe-0/3/2.210 (Index 548) (SNMP ifIndex 738)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.210 ]  Encapsulation: ENET2
+    Input packets : 2837562078
+    Output packets: 119434199857
+    Protocol aenet, AE bundle: ae1.210
+
+  Logical interface xe-0/3/2.212 (Index 547) (SNMP ifIndex 737)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.212 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.212
+
+  Logical interface xe-0/3/2.213 (Index 546) (SNMP ifIndex 736)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.213 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.213
+
+  Logical interface xe-0/3/2.214 (Index 545) (SNMP ifIndex 735)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.214 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.214
+
+  Logical interface xe-0/3/2.224 (Index 513) (SNMP ifIndex 595)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.224 ]  Encapsulation: ENET2
+    Input packets : 48313
+    Output packets: 317921
+    Protocol aenet, AE bundle: ae1.224
+
+  Logical interface xe-0/3/2.585 (Index 451) (SNMP ifIndex 593)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.585 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 9769434
+    Output packets: 3218299
+    Protocol aenet, AE bundle: ae1.585
+
+  Logical interface xe-0/3/2.912 (Index 543) (SNMP ifIndex 733)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.912 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 1421215599621
+    Output packets: 298887366074
+    Protocol aenet, AE bundle: ae1.912
+
+  Logical interface xe-0/3/2.2049 (Index 424) (SNMP ifIndex 592)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2049 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 47631603863
+    Output packets: 232601602263
+    Protocol aenet, AE bundle: ae1.2049
+
+  Logical interface xe-0/3/2.32767 (Index 542) (SNMP ifIndex 731)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.32767
+
+Physical interface: xe-0/3/3, Enabled, Physical link is Down
+  Interface index: 225, SNMP ifIndex: 589
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:7e, Hardware address: 54:e0:32:7d:28:7e
+  Last flapped   : 2015-08-26 04:05:49 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: lc-1/0/0, Enabled, Physical link is Up
+  Interface index: 177, SNMP ifIndex: 517
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-1/0/0.32769 (Index 387) (SNMP ifIndex 518)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-1/0/0, Enabled, Physical link is Up
+  Interface index: 182, SNMP ifIndex: 507
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-1/0/0.16383 (Index 392) (SNMP ifIndex 511)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: pfh-1/0/0, Enabled, Physical link is Up
+  Interface index: 181, SNMP ifIndex: 506
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfh-1/0/0.16383 (Index 391) (SNMP ifIndex 508)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-1/0/0, Administratively down, Physical link is Down
+  Interface index: 226, SNMP ifIndex: 516
+  Description: decom BACKBONE: ATLA-WASH 10GE of LAG ae8 | I2-ATLA-WASH-10GE-05251 [NO-MONITOR]
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c8, Hardware address: 54:e0:32:7d:28:a5
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/0/0.10 (Index 555) (SNMP ifIndex 1177)
+    Flags: Device-Down SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae8.10
+
+  Logical interface xe-1/0/0.20 (Index 554) (SNMP ifIndex 1176)
+    Flags: Device-Down SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae8.20
+
+  Logical interface xe-1/0/0.32767 (Index 553) (SNMP ifIndex 1174)
+    Flags: Device-Down SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ] 
+    Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae8.32767
+
+Physical interface: xe-1/0/1, Enabled, Physical link is Down
+  Interface index: 227, SNMP ifIndex: 1159
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:a6, Hardware address: 54:e0:32:7d:28:a6
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/0/2, Enabled, Physical link is Down
+  Interface index: 228, SNMP ifIndex: 1154
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:a7, Hardware address: 54:e0:32:7d:28:a7
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/0/3, Administratively down, Physical link is Down
+  Interface index: 229, SNMP ifIndex: 1155
+  Description: LAG: ae2 TR-CPS TransitRail 10G to asbn0:xe-4/0/0 | I2-ASHB-WASH-10GE-07690
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:a8, Hardware address: 54:e0:32:7d:28:a8
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: lc-1/1/0, Enabled, Physical link is Up
+  Interface index: 178, SNMP ifIndex: 520
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-1/1/0.32769 (Index 388) (SNMP ifIndex 521)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-1/1/0, Enabled, Physical link is Up
+  Interface index: 183, SNMP ifIndex: 509
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-1/1/0.16383 (Index 393) (SNMP ifIndex 513)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-1/1/0, Enabled, Physical link is Up
+  Interface index: 230, SNMP ifIndex: 519
+  Description: BACKBONE: ATLA-WASH 10GE of LAG ae8 | I2-ATLA-WASH-10GE-09142
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c8, Hardware address: 54:e0:32:7d:28:ce
+  Last flapped   : 2016-05-12 04:18:30 UTC (2w2d 11:33 ago)
+  Input rate     : 728 bps (1 pps)
+  Output rate    : 1424 bps (2 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/1/0.10 (Index 558) (SNMP ifIndex 1200)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Input packets : 13116690
+    Output packets: 23589491
+    Protocol aenet, AE bundle: ae8.10
+
+  Logical interface xe-1/1/0.20 (Index 557) (SNMP ifIndex 1199)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Input packets : 48521457
+    Output packets: 120204966
+    Protocol aenet, AE bundle: ae8.20
+
+  Logical interface xe-1/1/0.32767 (Index 556) (SNMP ifIndex 1197)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae8.32767
+
+Physical interface: xe-1/1/1, Administratively down, Physical link is Down
+  Interface index: 231, SNMP ifIndex: 1160
+  Description: AVAILABLE 10GE, LR | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:cf, Hardware address: 54:e0:32:7d:28:cf
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/1/2, Enabled, Physical link is Up
+  Interface index: 232, SNMP ifIndex: 1163
+  Description: LAG: ae1 TR-CPS TransitRail 10G to asbn0:xe-4/1/0 | I2-ASHB-WASH-10GE-07688
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c1, Hardware address: 54:e0:32:7d:28:d0
+  Last flapped   : 2016-04-28 06:59:37 UTC (4w2d 08:52 ago)
+  Input rate     : 102522216 bps (11290 pps)
+  Output rate    : 206598896 bps (46441 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         3
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/1/2.4 (Index 552) (SNMP ifIndex 601)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4 ]  Encapsulation: ENET2
+    Input packets : 10758372915
+    Output packets: 6048449623
+    Protocol aenet, AE bundle: ae1.4
+
+  Logical interface xe-1/1/2.182 (Index 567) (SNMP ifIndex 1215)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.182 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.182
+
+  Logical interface xe-1/1/2.186 (Index 566) (SNMP ifIndex 1214)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.186 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 216212124233
+    Output packets: 513657045319
+    Protocol aenet, AE bundle: ae1.186
+
+  Logical interface xe-1/1/2.210 (Index 565) (SNMP ifIndex 1213)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.210 ]  Encapsulation: ENET2
+    Input packets : 2841852351
+    Output packets: 119426726413
+    Protocol aenet, AE bundle: ae1.210
+
+  Logical interface xe-1/1/2.212 (Index 564) (SNMP ifIndex 1212)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.212 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.212
+
+  Logical interface xe-1/1/2.213 (Index 563) (SNMP ifIndex 1211)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.213 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.213
+
+  Logical interface xe-1/1/2.214 (Index 562) (SNMP ifIndex 1205)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.214 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.214
+
+  Logical interface xe-1/1/2.224 (Index 551) (SNMP ifIndex 600)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.224 ]  Encapsulation: ENET2
+    Input packets : 3763
+    Output packets: 1842047
+    Protocol aenet, AE bundle: ae1.224
+
+  Logical interface xe-1/1/2.585 (Index 516) (SNMP ifIndex 598)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.585 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 4008
+    Output packets: 31836711
+    Protocol aenet, AE bundle: ae1.585
+
+  Logical interface xe-1/1/2.912 (Index 560) (SNMP ifIndex 1203)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.912 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 1422854830731
+    Output packets: 1054061347858
+    Protocol aenet, AE bundle: ae1.912
+
+  Logical interface xe-1/1/2.2049 (Index 515) (SNMP ifIndex 597)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2049 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 46323536873
+    Output packets: 5
+    Protocol aenet, AE bundle: ae1.2049
+
+  Logical interface xe-1/1/2.32767 (Index 559) (SNMP ifIndex 1201)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.32767
+
+Physical interface: xe-1/1/3, Enabled, Physical link is Up
+  Interface index: 233, SNMP ifIndex: 1164
+  Description: LAG: ae1 TR-CPS TransitRail 10G to asbn0:xe-1/1/0 | I2-ASHB-WASH-10GE-10499
+  Link-level type: Flexible-Ethernet, MTU: 9192, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2f:c1, Hardware address: 54:e0:32:7d:28:d1
+  Last flapped   : 2016-04-28 06:59:50 UTC (4w2d 08:52 ago)
+  Input rate     : 95132696 bps (10674 pps)
+  Output rate    : 63265920 bps (16374 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         1
+  Interface transmit statistics: Disabled
+
+  Logical interface xe-1/1/3.4 (Index 593) (SNMP ifIndex 1245)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4 ]  Encapsulation: ENET2
+    Input packets : 10768356426
+    Output packets: 5971374203
+    Protocol aenet, AE bundle: ae1.4
+
+  Logical interface xe-1/1/3.182 (Index 587) (SNMP ifIndex 608)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.182 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.182
+
+  Logical interface xe-1/1/3.186 (Index 586) (SNMP ifIndex 607)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.186 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 139865084903
+    Output packets: 912329002624
+    Protocol aenet, AE bundle: ae1.186
+
+  Logical interface xe-1/1/3.210 (Index 585) (SNMP ifIndex 606)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.210 ]  Encapsulation: ENET2
+    Input packets : 2420680549
+    Output packets: 62763759296
+    Protocol aenet, AE bundle: ae1.210
+
+  Logical interface xe-1/1/3.212 (Index 584) (SNMP ifIndex 605)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.212 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.212
+
+  Logical interface xe-1/1/3.213 (Index 569) (SNMP ifIndex 604)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.213 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.213
+
+  Logical interface xe-1/1/3.214 (Index 568) (SNMP ifIndex 603)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.214 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.214
+
+  Logical interface xe-1/1/3.224 (Index 592) (SNMP ifIndex 1231)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.224 ]  Encapsulation: ENET2
+    Input packets : 261684
+    Output packets: 857
+    Protocol aenet, AE bundle: ae1.224
+
+  Logical interface xe-1/1/3.585 (Index 590) (SNMP ifIndex 1226)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.585 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 53039795
+    Output packets: 27310213
+    Protocol aenet, AE bundle: ae1.585
+
+  Logical interface xe-1/1/3.912 (Index 561) (SNMP ifIndex 602)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.912 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 864802283887
+    Output packets: 22
+    Protocol aenet, AE bundle: ae1.912
+
+  Logical interface xe-1/1/3.2049 (Index 589) (SNMP ifIndex 1220)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2049 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 46265977288
+    Output packets: 1073
+    Protocol aenet, AE bundle: ae1.2049
+
+  Logical interface xe-1/1/3.32767 (Index 588) (SNMP ifIndex 1218)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol aenet, AE bundle: ae1.32767
+
+Physical interface: lc-1/2/0, Enabled, Physical link is Up
+  Interface index: 179, SNMP ifIndex: 533
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-1/2/0.32769 (Index 389) (SNMP ifIndex 534)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-1/2/0, Enabled, Physical link is Up
+  Interface index: 184, SNMP ifIndex: 510
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-1/2/0.16383 (Index 394) (SNMP ifIndex 514)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-1/2/0, Enabled, Physical link is Down
+  Interface index: 234, SNMP ifIndex: 532
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:f7, Hardware address: 54:e0:32:7d:28:f7
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/2/1, Enabled, Physical link is Down
+  Interface index: 235, SNMP ifIndex: 1166
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:f8, Hardware address: 54:e0:32:7d:28:f8
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/2/2, Enabled, Physical link is Down
+  Interface index: 236, SNMP ifIndex: 1165
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:f9, Hardware address: 54:e0:32:7d:28:f9
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/2/3, Enabled, Physical link is Down
+  Interface index: 237, SNMP ifIndex: 1167
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:28:fa, Hardware address: 54:e0:32:7d:28:fa
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: lc-1/3/0, Enabled, Physical link is Up
+  Interface index: 180, SNMP ifIndex: 536
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-1/3/0.32769 (Index 390) (SNMP ifIndex 537)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-1/3/0, Enabled, Physical link is Up
+  Interface index: 185, SNMP ifIndex: 512
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-1/3/0.16383 (Index 395) (SNMP ifIndex 515)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: xe-1/3/0, Enabled, Physical link is Down
+  Interface index: 238, SNMP ifIndex: 535
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:29:20, Hardware address: 54:e0:32:7d:29:20
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/3/1, Enabled, Physical link is Down
+  Interface index: 239, SNMP ifIndex: 1168
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:29:21, Hardware address: 54:e0:32:7d:29:21
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/3/2, Enabled, Physical link is Down
+  Interface index: 240, SNMP ifIndex: 1172
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:29:22, Hardware address: 54:e0:32:7d:29:22
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: xe-1/3/3, Enabled, Physical link is Down
+  Interface index: 241, SNMP ifIndex: 1173
+  Description: AVAILABLE 10GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, LAN-PHY mode, Speed: 10Gbps,
+  BPDU Error: None, Loopback: None, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:29:23, Hardware address: 54:e0:32:7d:29:23
+  Last flapped   : 2015-08-26 04:05:57 UTC (39w3d 11:45 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Interface transmit statistics: Disabled
+
+Physical interface: et-7/0/0, Enabled, Physical link is Up
+  Interface index: 189, SNMP ifIndex: 1300
+  Description: sdn-sw.wash, Eth 9/2 | I2-WASH-WASH-100GE-48338
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 100Gbps,
+  BPDU Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2c:83, Hardware address: 54:e0:32:7d:2c:83
+  Last flapped   : 2016-05-26 01:15:18 UTC (2d 14:36 ago)
+  Input rate     : 4846151944 bps (659571 pps)
+  Output rate    : 6261670232 bps (805293 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                            20
+    Errored blocks                        30
+
+  Logical interface et-7/0/0.101 (Index 447) (SNMP ifIndex 1306)
+    Description: BACKBONE: NEWY-WASH R&E VLAN via AL2S | I2-NEWY32A0A-WASH-VLAN-09176
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.101 ]  Encapsulation: ENET2
+    Input packets : 373321461778
+    Output packets: 769073439298
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.0/31, Local: 198.71.45.1
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:601::/64, Local: 2001:468:ff:601::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:657d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.115 (Index 448) (SNMP ifIndex 1308)
+    Description: BACKBONE: CHIC-WASH R&E VLAN via AL2S | I2-CHIC-WASH-VLAN-12131
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.115 ]  Encapsulation: ENET2
+    Input packets : 3843925971593
+    Output packets: 3147145044936
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.56/31, Local: 198.71.45.57
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:2:204::/64, Local: 2001:468:2:204::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:737d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.122 (Index 407) (SNMP ifIndex 652)
+    Description: BACKBONE: ASHB-WASH R&E VLAN via AL2S | I2-ASHB-WASH-VLAN-55200
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.122 ]  Encapsulation: ENET2
+    Input packets : 4686959538227
+    Output packets: 6691332765181
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.18/31, Local: 64.57.28.19
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:e:4::/64, Local: 2001:468:e:4::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:7a7d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.301 (Index 449) (SNMP ifIndex 1307)
+    Description: BACKBONE: NEWY-WASH Commodity VLAN via AL2S | I2-NEWY32AOA-WASH-VLAN-09315
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.301 ]  Encapsulation: ENET2
+    Input packets : 101615957
+    Output packets: 142928185
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.28/31, Local: 198.71.45.29
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:203::/64, Local: 2001:468:9:203::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:2d7d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.315 (Index 450) (SNMP ifIndex 1309)
+    Description: BACKBONE: CHIC-WASH Commodity VLAN via AL2S | I2-CHIC-WASH-VLAN-12132
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.315 ]  Encapsulation: ENET2
+    Input packets : 62674744
+    Output packets: 55084810
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.58/31, Local: 198.71.45.59
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:2:205::/64, Local: 2001:468:2:205::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:3b7d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.322 (Index 329) (SNMP ifIndex 653)
+    Description: BACKBONE: ASHB-WASH Commodity VLAN via AL2S | I2-ASHB-WASH-VLAN-55205
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.322 ]  Encapsulation: ENET2
+    Input packets : 185988101231
+    Output packets: 301672885231
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.34/31, Local: 64.57.28.35
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:e:9::/64, Local: 2001:468:e:9::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:427d:2c83
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1002 (Index 452) (SNMP ifIndex 1310)
+    Description: [RE] Mid-Atlantic Crossroads (MAX) via AL2S/WASH | I2-S11812
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1002 ]  Encapsulation: ENET2
+    Input packets : 11999221
+    Output packets: 220975396
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.228/31, Local: 198.71.45.229
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:208::/127, Local: 2001:468:9:208::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:ea7d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1007 (Index 408) (SNMP ifIndex 651)
+    Description: [RE] 3ROX via AL2S/PITT | I2-S10780
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1007 ]  Encapsulation: ENET2
+    Input packets : 625666725692
+    Output packets: 599797174531
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.88.115.82/31, Local: 192.88.115.83
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:5e8:0:fffd:0:1:2:100/120,
+        Local: 2001:5e8:0:fffd:0:1:2:102
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:ef7d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1009 (Index 338) (SNMP ifIndex 610)
+    Description: [RE] Smithsonian via AL2S/ASHB | I2-S11940
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1009 ]  Encapsulation: ENET2
+    Input packets : 82141252543
+    Output packets: 82907766029
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.12/31, Local: 198.71.46.12
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:2::/127, Local: 2001:468:9:2::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:f17d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1040 (Index 398) (SNMP ifIndex 650)
+    Description: [RE] MARIA via AL2S/ASHB | I2-S11613
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1040 ]  Encapsulation: ENET2
+    Input packets : 703129123235
+    Output packets: 1092097839117
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.122.175.14/31, Local: 192.122.175.15
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2607:b400:fff:e030::f0/127, Local: 2607:b400:fff:e030::f1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:107d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1130 (Index 399) (SNMP ifIndex 647)
+    Description: [RE] MAGPI IP Connection via AL2S/UPENN | I2-S12525
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1130 ]  Encapsulation: ENET2
+    Input packets : 701057606598
+    Output packets: 991215718676
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 216.27.100.16/30, Local: 216.27.100.18,
+        Broadcast: 216.27.100.19
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:1800:200::/64, Local: 2001:468:1800:200::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:6a7d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1131 (Index 401) (SNMP ifIndex 648)
+    Description: [RE] UPENN via AL2S/PHIL | I2-S12949
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1131 ]  Encapsulation: ENET2
+    Input packets : 525626668025
+    Output packets: 439249286597
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 128.91.240.180/30, Local: 128.91.240.182,
+        Broadcast: 128.91.240.183
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2607:f470:0:2:0:b:2:0/112, Local: 2607:f470:0:2:0:b:2:2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:6b7d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1136 (Index 346) (SNMP ifIndex 640)
+    Description: [RE] MREN via AL2S | I2-S07962
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1136 ]  Encapsulation: ENET2
+    Input packets : 45064851
+    Output packets: 400032966
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.206/31, Local: 198.71.46.206
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:942::/126, Local: 2001:468:ff:942::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:707d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1156 (Index 344) (SNMP ifIndex 635)
+    Description: [RE] NIH via AL2S/ASHB | I2-S50449
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1156 ]  Encapsulation: ENET2
+    Input packets : 8737930477
+    Output packets: 11772646
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.154/31, Local: 198.71.46.155
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:847d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1158 (Index 364) (SNMP ifIndex 643)
+    Description: [RE] NIH via AL2S/ASHB | I2-S50448
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1158 ]  Encapsulation: ENET2
+    Input packets : 180054511415
+    Output packets: 46754629252
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.158/31, Local: 198.71.46.159
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:2300:5::4/127, Local: 2001:468:2300:5::4
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:867d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1185 (Index 453) (SNMP ifIndex 527)
+    Description: [RE]Drexel IPv4 R&E | I2-S12517
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1185 ]  Encapsulation: ENET2
+    Input packets : 662940281675
+    Output packets: 773014583582
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 204.238.76.32/30, Local: 204.238.76.34,
+        Broadcast: 204.238.76.35
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:a17d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1186 (Index 454) (SNMP ifIndex 529)
+    Description: [RE]Drexel University IPv6 R&E | I2-S12517
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1186 ]  Encapsulation: ENET2
+    Input packets : 1250857
+    Output packets: 11054646
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:22::/64, Local: 2001:468:9:22::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:a27d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1192 (Index 342) (SNMP ifIndex 623)
+    Description: [RE]C-Light/South Carolina Light Rail via AL2S | I2-S11945
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1192 ]  Encapsulation: ENET2
+    Input packets : 46123893
+    Output packets: 4911172153
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 205.186.224.48/30, Local: 205.186.224.50,
+        Broadcast: 205.186.224.51
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:a87d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1193 (Index 343) (SNMP ifIndex 612)
+    Description: [RE][CPS] C-Light via MCNC via AL2S
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1193 ]  Encapsulation: ENET2
+    Input packets : 1039303852
+    Output packets: 4808607360
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff00:1::/64, Local: 2001:468:ff00:1::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:a97d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.1276 (Index 500) (SNMP ifIndex 541)
+    Description: [RE] Mid-Atlantic Crossroads (MAX) via AL2S/WASH | I2-S12528
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1276 ]  Encapsulation: ENET2
+    Input packets : 140933376309
+    Output packets: 162802622550
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 206.196.177.78/31, Local: 206.196.177.79
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:c00:22::/64, Local: 2001:468:c00:22::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:fc7d:2c83
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-7/0/0.32767 (Index 456) (SNMP ifIndex 1301)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: lc-7/0/0, Enabled, Physical link is Up
+  Interface index: 148, SNMP ifIndex: 539
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-7/0/0.32769 (Index 366) (SNMP ifIndex 540)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+      Flags: Is-Primary
+
+Physical interface: pfe-7/0/0, Enabled, Physical link is Up
+  Interface index: 150, SNMP ifIndex: 523
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-7/0/0.16383 (Index 368) (SNMP ifIndex 528)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: pfh-7/0/0, Enabled, Physical link is Up
+  Interface index: 149, SNMP ifIndex: 522
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfh-7/0/0.16383 (Index 367) (SNMP ifIndex 526)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: et-9/0/0, Enabled, Physical link is Up
+  Interface index: 187, SNMP ifIndex: 590
+  Description: sdn-sw.wash, Eth 5/2 | I2-WASH-WASH-100GE-07774
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 100Gbps,
+  BPDU Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2d:cd, Hardware address: 54:e0:32:7d:2d:cd
+  Last flapped   : 2015-08-26 04:05:19 UTC (39w3d 11:46 ago)
+  Input rate     : 20829056296 bps (2184731 pps)
+  Output rate    : 15024100224 bps (1375600 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+
+  Logical interface et-9/0/0.103 (Index 406) (SNMP ifIndex 649)
+    Description: BACKBONE: CLEV-WASH R&E VLAN via AL2S | I2-CLEV-WASH-VLAN-09178
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.103 ]  Encapsulation: ENET2
+    Input packets : 325963439546
+    Output packets: 676584921243
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.4/31, Local: 198.71.45.5
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:a02::/64, Local: 2001:468:ff:a02::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:677d:2dcd
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.104 (Index 420) (SNMP ifIndex 1152)
+    Description: BACKBONE: ATLA-WASH R&E VLAN via AL2S | I2-ATLA-WASH-VLAN-09179
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.104 ]  Encapsulation: ENET2
+    Input packets : 5485622708008
+    Output packets: 4598776505240
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.6/31, Local: 198.71.45.7
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:110::/64, Local: 2001:468:ff:110::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:687d:2dcd
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.303 (Index 400) (SNMP ifIndex 644)
+    Description: BACKBONE: CLEV-WASH Commodity VLAN via AL2S | I2-CLEV-WASH-VLAN-09317
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.303 ]  Encapsulation: ENET2
+    Input packets : 193200690959
+    Output packets: 266949822526
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.32/31, Local: 198.71.45.33
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:204::/64, Local: 2001:468:9:204::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:2f7d:2dcd
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.304 (Index 421) (SNMP ifIndex 1031)
+    Description: BACKBONE: ATLA-WASH Commodity VLAN via AL2S | I2-ATLA-WASH-VLAN-09318
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.304 ]  Encapsulation: ENET2
+    Input packets : 988157450875
+    Output packets: 1563727825884
+    Protocol inet, MTU: 9170
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.34/31, Local: 198.71.45.35
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9170
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:205::/64, Local: 2001:468:9:205::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:307d:2dcd
+    Protocol mpls, MTU: 9170, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.400 (Index 337) (SNMP ifIndex 609)
+    Description: WASH Performance Assurance Host [PENDING]
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.400 ]  Encapsulation: ENET2
+    Input packets : 61973748433
+    Output packets: 62007472780
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.62/31, Local: 198.71.46.63
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:907d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.465 (Index 422) (SNMP ifIndex 634)
+    Description: [RE]redCLARA via NGIX and AWave-FIU
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.465 ]  Encapsulation: ENET2
+    Input packets : 217923267
+    Output packets: 21736458669
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.210/31, Local: 198.71.45.210
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:18c5::/64, Local: 2001:468:ff:18c5::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:d17d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.469 (Index 347) (SNMP ifIndex 642)
+    Description: [RE]RNP via Atlantic Wave via AL2S
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.469 ]  Encapsulation: ENET2
+    Input packets : 22531690752
+    Output packets: 5289695751
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.60/30, Local: 64.57.28.61, Broadcast: 64.57.28.63
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:9c5::/64, Local: 2001:468:ff:9c5::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:d57d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.630 (Index 335) (SNMP ifIndex 654)
+    Description: [RE][NETPLUS] I2-S12298 Blackboard via AL2S/ASHB | I2-ASHB-WASH-10GE-12296
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.630 ]  Encapsulation: ENET2
+    Input packets : 476736539189
+    Output packets: 298596385903
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.68/30, Local: 198.71.46.69,
+        Broadcast: 198.71.46.71
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3202:767d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1002 (Index 425) (SNMP ifIndex 1013)
+    Description: [CPS]  Mid-Atlantic Crossroads (MAX) via AL2S/WASH
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1002 ]  Encapsulation: ENET2
+    Input packets : 58044852
+    Output packets: 740335897
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:209::/127, Local: 2001:468:9:209::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:ea7d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1003 (Index 426) (SNMP ifIndex 1233)
+    Description: [RE] CAAREN v6 via AL2S/WASH
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1003 ]  Encapsulation: ENET2
+    Input packets : 73295478
+    Output packets: 36109481
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:207::/127, Local: 2001:468:9:207::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:eb7d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1004 (Index 345) (SNMP ifIndex 639)
+    Description: [RE] CAAREN v4 via AL2S/WASH | I2-S11808
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1004 ]  Encapsulation: ENET2
+    Input packets : 282349778528
+    Output packets: 104083112395
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.246/31, Local: 198.71.45.246
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:ec7d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1009 (Index 427) (SNMP ifIndex 867)
+    Description: [RE]MERIT via OARnet/AL2S IPv4 R&E | I2-S10482
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1009 ]  Encapsulation: ENET2
+    Input packets : 306102069
+    Output packets: 1243588869
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.122.183.12/30, Local: 192.122.183.14,
+        Broadcast: 192.122.183.15
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:954::/64, Local: 2001:468:ff:954::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:f17d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1010 (Index 428) (SNMP ifIndex 855)
+    Description: [CPS] Smithsonian via AL2S/ASHB
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1010 ]  Encapsulation: ENET2
+    Input packets : 20898776
+    Output packets: 13788018
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:1::/127, Local: 2001:468:9:1::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:f27d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1040 (Index 429) (SNMP ifIndex 1027)
+    Description: [CPS] MARIA via AL2S/ASHB | I2-S11632
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1040 ]  Encapsulation: ENET2
+    Input packets : 207014698
+    Output packets: 23347117
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2607:b400:fff:e050::f0/127, Local: 2607:b400:fff:e050::f1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:107d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1108 (Index 430) (SNMP ifIndex 868)
+    Description: [TR-CPS] OARnet via AL2S
+    Flags: Down SNMP-Traps CCC-Down 0x4000 VLAN-Tag [ 0x8100.1108 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9192
+
+  Logical interface et-9/0/0.1109 (Index 431) (SNMP ifIndex 869)
+    Description: [RE]OARnet via AL2S IPv4 R&E | I2-S11936
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1109 ]  Encapsulation: ENET2
+    Input packets : 1026977323432
+    Output packets: 947029170586
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.88.192.236/30, Local: 192.88.192.238,
+        Broadcast: 192.88.192.239
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:557d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1110 (Index 432) (SNMP ifIndex 870)
+    Description: [RE]OARnet via AL2S IPv6 R&E, IPv4 Multicast | I2-S11938
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1110 ]  Encapsulation: ENET2
+    Input packets : 556436986
+    Output packets: 474682979
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 199.18.156.248/30, Local: 199.18.156.250,
+        Broadcast: 199.18.156.251
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2610:a8:1cab:9::/64, Local: 2610:a8:1cab:9::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:567d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1160 (Index 340) (SNMP ifIndex 627)
+    Description: [RE]World Bank R&E | I2-S09137
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1160 ]  Encapsulation: ENET2
+    Input packets : 213802688136
+    Output packets: 85367339467
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.23.30/31, Local: 64.57.23.31
+    Protocol inet6, MTU: 1500
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:20a::/127, Local: 2001:468:9:20a::
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:887d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1171 (Index 433) (SNMP ifIndex 1287)
+    Description: [RE] NYSERNet v4/v6 via AL2S/NEWY | I2-S12533
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1171 ]  Encapsulation: ENET2
+    Input packets : 285404147722
+    Output packets: 718586070018
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 199.109.5.24/30, Local: 199.109.5.26,
+        Broadcast: 199.109.5.27
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2620:f:0:507::2/127, Local: 2620:f:0:507::3
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:937d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1190 (Index 341) (SNMP ifIndex 620)
+    Description: [RE] MCNC I2-S12527
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1190 ]  Encapsulation: ENET2
+    Input packets : 2458257292913
+    Output packets: 1253471573405
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.184/30, Local: 198.71.46.185,
+        Broadcast: 198.71.46.187
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:20d::/64, Local: 2001:468:9:20d::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:a67d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.1275 (Index 339) (SNMP ifIndex 611)
+    Description: [RE] Mid-Atlantic Crossroads (MAX) via AL2S/ASHB | I2-S12528
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1275 ]  Encapsulation: ENET2
+    Input packets : 4071218348156
+    Output packets: 2935311116932
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 206.196.177.2/31, Local: 206.196.177.3
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:c00:11::/64, Local: 2001:468:c00:11::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3204:fb7d:2dcd
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-9/0/0.32767 (Index 434) (SNMP ifIndex 871)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: lc-9/0/0, Enabled, Physical link is Up
+  Interface index: 154, SNMP ifIndex: 568
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-9/0/0.32769 (Index 372) (SNMP ifIndex 569)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: pfe-9/0/0, Enabled, Physical link is Up
+  Interface index: 156, SNMP ifIndex: 571
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-9/0/0.16383 (Index 374) (SNMP ifIndex 573)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: pfh-9/0/0, Enabled, Physical link is Up
+  Interface index: 155, SNMP ifIndex: 570
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfh-9/0/0.16383 (Index 373) (SNMP ifIndex 572)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: et-10/0/0, Enabled, Physical link is Up
+  Interface index: 188, SNMP ifIndex: 872
+  Description: sw.wix.net.internet2.edu:15/1
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 100Gbps,
+  BPDU Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:72, Hardware address: 54:e0:32:7d:2e:72
+  Last flapped   : 2016-03-04 21:13:53 UTC (12w0d 18:38 ago)
+  Input rate     : 10787348024 bps (885799 pps)
+  Output rate    : 15251860896 bps (1515474 pps)
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             5
+    Errored blocks                         8
+
+  Logical interface et-10/0/0.183 (Index 370) (SNMP ifIndex 656)
+    Description: [RE]MAX back | I2-S11813
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.183 ]  Encapsulation: ENET2
+    Input packets : 21139771
+    Output packets: 19888639
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 206.196.177.104/30, Local: 206.196.177.106,
+        Broadcast: 206.196.177.107
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:185c::/64, Local: 2001:468:ff:185c::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:b77d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.194 (Index 435) (SNMP ifIndex 1113)
+    Description: [RE]ESNet IPv4 via WIX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.194 ]  Encapsulation: ENET2
+    Input packets : 581579651223
+    Output packets: 473557649025
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.124.194.8/30, Local: 198.124.194.10,
+        Broadcast: 198.124.194.11
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:c27d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.195 (Index 436) (SNMP ifIndex 1114)
+    Description: [RE]ESNet IPv6 via WIX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.195 ]  Encapsulation: ENET2
+    Input packets : 243199830
+    Output packets: 221527104
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:9c3::/64, Local: 2001:468:ff:9c3::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:c37d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.202 (Index 437) (SNMP ifIndex 1115)
+    Description: [RE]GEANT2 via WIX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.202 ]  Encapsulation: ENET2
+    Input packets : 8318891651919
+    Output packets: 8054789144566
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 62.40.125.16/30, Local: 62.40.125.18,
+        Broadcast: 62.40.125.19
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:798:14:10aa::10/126, Local: 2001:798:14:10aa::12
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:ca7d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.210 (Index 438) (SNMP ifIndex 1117)
+    Description: [RE]SINET via WIX | I2-S12105
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.210 ]  Encapsulation: ENET2
+    Input packets : 6702859
+    Output packets: 8054371
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 150.99.199.188/30, Local: 150.99.199.190,
+        Broadcast: 150.99.199.191
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:2f8:ff00:ff04::/64, Local: 2001:2f8:ff00:ff04::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:d27d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.297 (Index 369) (SNMP ifIndex 655)
+    Description: [RE]NISN (via UMD NGIX) | AS:297
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.173 ]  Encapsulation: ENET2
+    Input packets : 272305235576
+    Output packets: 311106383033
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 192.84.8.252/30, Local: 192.84.8.254,
+        Broadcast: 192.84.8.255
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:200::/127, Local: 2001:468:9:200::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:ad7d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.360 (Index 403) (SNMP ifIndex 657)
+    Description: [RE]SINET-to-Internet2 via GEANT | I2-S13133
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.360 ]  Encapsulation: ENET2
+    Input packets : 350821183
+    Output packets: 976184965
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 150.99.200.196/30, Local: 150.99.200.198,
+        Broadcast: 150.99.200.199
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:2f8:ff00:ff08::/64, Local: 2001:2f8:ff00:ff08::6509:1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3201:687d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.751 (Index 582) (SNMP ifIndex 530)
+    Description: NTT SDN Demo via WIX (Temporary) | [NO-MONITOR] 7459.144
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.751 ]  Encapsulation: ENET2
+    Input packets : 142848464568
+    Output packets: 148407832533
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.19.168/30, Local: 64.57.19.169,
+        Broadcast: 64.57.19.171
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3202:ef7d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.986 (Index 439) (SNMP ifIndex 1123)
+    Description: [RE] DREN via WIX | AS668
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.986 ]  Encapsulation: ENET2
+    Input packets : 352605488921
+    Output packets: 309580055034
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.148/30, Local: 198.71.46.150,
+        Broadcast: 198.71.46.151
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:20c::/64, Local: 2001:468:9:20c::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3203:da7d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.2002 (Index 440) (SNMP ifIndex 1118)
+    Description: [RE][LHCONE] LHCONE IXP via WIX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2002 ]  Encapsulation: ENET2
+    Input packets : 3419574903087
+    Output packets: 1661193411317
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, Is-Primary, User-MTU, Sample-input
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 64.57.30.208/28, Local: 64.57.30.209,
+        Broadcast: 64.57.30.223
+    Protocol inet6, MTU: 9000
+      Flags: Is-Primary, User-MTU
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2001:468:ef00:4000::/64, Local: 2001:468:ef00:4000::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3207:d27d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.3000 (Index 441) (SNMP ifIndex 619)
+    Description: [RE]GEANT(AMS) ANA 100G via WIX/WASH | RE:20965
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3000 ]  Encapsulation: ENET2
+    Input packets : 11106010122377
+    Output packets: 14195579751759
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 62.40.124.44/31, Local: 62.40.124.45
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:798:99:1::24/126, Local: 2001:798:99:1::26
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:320b:b87d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.3001 (Index 442) (SNMP ifIndex 621)
+    Description: [RE]QNREN via WIX | I2-S53776
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3001 ]  Encapsulation: ENET2
+    Input packets : 1284450937
+    Output packets: 3451959463
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 185.37.99.16/31, Local: 185.37.99.17
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2a04:6f80:2:2::/64, Local: 2a04:6f80:2:2::17
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:320b:b97d:2e72
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.4001 (Index 443) (SNMP ifIndex 1119)
+    Description: ps.test.wix.internet2.edu (10G)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4001 ]  Encapsulation: ENET2
+    Input packets : 56353383903
+    Output packets: 68690926564
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.224/30, Local: 198.71.45.225,
+        Broadcast: 198.71.45.227
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.4002 (Index 444) (SNMP ifIndex 1120)
+    Description: [LHCONE] lhcone.test.wix.internet2.edu bwctl
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4002 ]  Encapsulation: ENET2
+    Input packets : 62176213995
+    Output packets: 91207163070
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.30.148/31, Local: 64.57.30.148
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.4003 (Index 445) (SNMP ifIndex 1282)
+    Description: test.wix Perfsonar Server mtu 1500
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4003 ]  Encapsulation: ENET2
+    Input packets : 19905
+    Output packets: 1060948
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.46.192/30, Local: 198.71.46.194,
+        Broadcast: 198.71.46.195
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface et-10/0/0.32767 (Index 446) (SNMP ifIndex 879)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: gr-10/0/0, Enabled, Physical link is Up
+  Interface index: 160, SNMP ifIndex: 936
+  Type: GRE, Link-level type: GRE, MTU: Unlimited, Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ip-10/0/0, Enabled, Physical link is Up
+  Interface index: 161, SNMP ifIndex: 937
+  Type: IPIP, Link-level type: IP-over-IP, MTU: Unlimited, Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: lc-10/0/0, Enabled, Physical link is Up
+  Interface index: 157, SNMP ifIndex: 547
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface lc-10/0/0.32769 (Index 375) (SNMP ifIndex 859)
+    Flags: Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol vpls, MTU: Unlimited
+
+Physical interface: lt-10/0/0, Enabled, Physical link is Up
+  Interface index: 164, SNMP ifIndex: 940
+  Type: Logical-tunnel, Link-level type: Logical-tunnel, MTU: Unlimited,
+  Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link flags     : None
+  Physical info  : 13
+  Current address: 54:e0:32:7d:2e:72, Hardware address: 54:e0:32:7d:2e:72
+  Last flapped   : 2015-08-26 04:05:00 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: mt-10/0/0, Enabled, Physical link is Up
+  Interface index: 163, SNMP ifIndex: 939
+  Type: Multicast-GRE, Link-level type: GRE, MTU: Unlimited, Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: pd-10/0/0, Enabled, Physical link is Up
+  Interface index: 158, SNMP ifIndex: 934
+  Type: PIMD, Link-level type: PIM-Decapsulator, MTU: Unlimited,
+  Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+  Logical interface pd-10/0/0.32769 (Index 397) (SNMP ifIndex 943)
+    Flags: Up Point-To-Point SNMP-Traps 0x4000
+    LinkAddress 0-0---10020000000000000000000000000000 Encapsulation: PIM-Decap
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: pe-10/0/0, Enabled, Physical link is Up
+  Interface index: 159, SNMP ifIndex: 935
+  Type: PIME, Link-level type: PIM-Encapsulator, MTU: Unlimited,
+  Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: pfe-10/0/0, Enabled, Physical link is Up
+  Interface index: 167, SNMP ifIndex: 862
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfe-10/0/0.16383 (Index 377) (SNMP ifIndex 863)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol inet6, MTU: Unlimited
+      Flags: None
+
+Physical interface: pfh-10/0/0, Enabled, Physical link is Up
+  Interface index: 166, SNMP ifIndex: 860
+  Speed: 800mbps
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface pfh-10/0/0.16383 (Index 376) (SNMP ifIndex 861)
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    Bandwidth: 0
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+
+Physical interface: ut-10/0/0, Enabled, Physical link is Up
+  Interface index: 165, SNMP ifIndex: 941
+  Type: Uplink-tunnel, Link-level type: Uplink-tunnel, MTU: Unlimited,
+  Speed: 10000mbps
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Physical info  : 13
+  Last flapped   : 2015-08-26 04:05:00 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: vt-10/0/0, Enabled, Physical link is Up
+  Interface index: 162, SNMP ifIndex: 938
+  Type: Loopback, Link-level type: Virtual-loopback-tunnel, MTU: Unlimited,
+  Speed: 10000mbps
+  Device flags   : Present Running
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+  Logical interface vt-10/0/0.2097152 (Index 396) (SNMP ifIndex 637)
+    Flags: Up Point-To-Point SNMP-Traps 0x4004000
+    Encapsulation: Virtual-loopback-tunnel
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Flags: None
+    Protocol mpls, MTU: Unlimited, Maximum labels: 3
+      Flags: None
+
+Physical interface: ge-10/2/0, Enabled, Physical link is Up
+  Interface index: 190, SNMP ifIndex: 880
+  Description: Observatory 1G via lan.wash:C23
+  Link-level type: VLAN-CCC, MTU: 9192, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c4, Hardware address: 54:e0:32:7d:2e:c4
+  Last flapped   : 2015-08-26 04:05:15 UTC (39w3d 11:46 ago)
+  Input rate     : 154520 bps (169 pps)
+  Output rate    : 254344 bps (166 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/0.10 (Index 457) (SNMP ifIndex 882)
+    Description: Racklan #1 Default Gateway
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Input packets : 1191986401
+    Output packets: 1059721270
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.24.64/27, Local: 64.57.24.65, Broadcast: 64.57.24.95
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/2/0.12 (Index 458) (SNMP ifIndex 886)
+    Description: [RE]Observatory 1G VLAN
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.12 ]  Encapsulation: ENET2
+    Input packets : 1491446111
+    Output packets: 698350416
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.16.32/28, Local: 64.57.16.33, Broadcast: 64.57.16.47
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:12::/64, Local: 2001:468:9:12::1
+      Addresses
+        Destination: 2001:468:9:12::/64, Local: 2001:468:9:12::16:33
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:c7d:2ec4
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/2/0.450 (Index 459) (SNMP ifIndex 1096)
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.450 ]  Encapsulation: ENET2
+    Input packets : 511861460
+    Output packets: 353280966
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.71.45.140/30, Local: 198.71.45.141,
+        Broadcast: 198.71.45.143
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/2/0.547 (Index 460) (SNMP ifIndex 892)
+    Description: [RE]I2-S06738 DCN ATLA-WASH | I2-ATLA-WASH-LSP-06752
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.547 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 2739561
+    Output packets: 9969
+    Protocol ccc, MTU: 9192
+
+  Logical interface ge-10/2/0.32767 (Index 461) (SNMP ifIndex 893)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/2/1, Enabled, Physical link is Up
+  Interface index: 191, SNMP ifIndex: 881
+  Link-level type: Ethernet, MTU: 9192, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c5, Hardware address: 54:e0:32:7d:2e:c5
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/1.0 (Index 462) (SNMP ifIndex 895)
+    Description: [RE]nms-rthr1 p2p connection
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Input packets : 1836922590
+    Output packets: 1616359105
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.16.16/30, Local: 64.57.16.17, Broadcast: 64.57.16.19
+    Protocol inet6, MTU: 9000
+      Flags: Is-Primary, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:101::/64, Local: 2001:468:9:101::1
+      Addresses
+        Destination: 2001:468:9:101::/64, Local: 2001:468:9:101::16:17
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:32ff:fe7d:2ec5
+    Protocol multiservice, MTU: Unlimited
+      Flags: Is-Primary
+
+Physical interface: ge-10/2/2, Enabled, Physical link is Up
+  Interface index: 192, SNMP ifIndex: 883
+  Link-level type: Ethernet, MTU: 9192, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c6, Hardware address: 54:e0:32:7d:2e:c6
+  Last flapped   : 2016-04-05 15:13:25 UTC (7w4d 00:38 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/2.0 (Index 463) (SNMP ifIndex 903)
+    Description: [RE]nms-rthr2 p2p connection
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Input packets : 787407624
+    Output packets: 754079588
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.16.20/30, Local: 64.57.16.21, Broadcast: 64.57.16.23
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:9:100::/64, Local: 2001:468:9:100::1
+      Addresses
+        Destination: 2001:468:9:100::/64, Local: 2001:468:9:100::16:21
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:32ff:fe7d:2ec6
+    Protocol multiservice, MTU: Unlimited
+
+Physical interface: ge-10/2/3, Enabled, Physical link is Up
+  Interface index: 193, SNMP ifIndex: 884
+  Description: of.wash, Gi0/1 |  I2-WASH-WASH-GIGE-08846
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c7, Hardware address: 54:e0:32:7d:2e:c7
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/3.3002 (Index 464) (SNMP ifIndex 907)
+    Description: [RE]NMS-oexp (standford 100x100 interconnect) to NEWY
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3002 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ge-10/2/3.3003 (Index 465) (SNMP ifIndex 908)
+    Description: [RE]NMS-oexp (standford 100x100 interconnect) to HOUS
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3003 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ge-10/2/3.3005 (Index 466) (SNMP ifIndex 909)
+    Description: [RE]NMS-oexp (standford 100x100 interconnect) to LOSA
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3005 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 0
+    Output packets: 0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ge-10/2/3.32767 (Index 467) (SNMP ifIndex 912)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/2/4, Enabled, Physical link is Up
+  Interface index: 194, SNMP ifIndex: 885
+  Description: of.wash, Gi0/2 via fiber patch I2-WASH-WASH-FIBR-6083
+  Link-level type: Ethernet-CCC, MTU: 9170, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c8, Hardware address: 54:e0:32:7d:2e:c8
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/4.0 (Index 468) (SNMP ifIndex 913)
+    Description: [RE]OF LSP BACKBONE: NEWY-WASH | I2-NEWY-WASH-LSP-5987
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: Ethernet-CCC
+    Input packets : 54907454
+    Output packets: 99980340
+    Protocol ccc, MTU: 9170
+      Flags: Is-Primary
+
+Physical interface: ge-10/2/5, Enabled, Physical link is Up
+  Interface index: 195, SNMP ifIndex: 887
+  Description: of.wash, Gi0/3 via fiber patch I2-WASH-WASH-FIBR-6082
+  Link-level type: Ethernet-CCC, MTU: 9170, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:c9, Hardware address: 54:e0:32:7d:2e:c9
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/5.0 (Index 469) (SNMP ifIndex 914)
+    Description: [RE]OF LSP BACKBONE: ATLA-WASH | I2-ATLA-WASH-LSP-5983
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: Ethernet-CCC
+    Input packets : 75374317
+    Output packets: 31036189
+    Protocol ccc, MTU: 9170
+
+Physical interface: ge-10/2/6, Enabled, Physical link is Down
+  Interface index: 196, SNMP ifIndex: 888
+  Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:ca, Hardware address: 54:e0:32:7d:2e:ca
+  Last flapped   : 2015-08-26 04:05:15 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  Interface transmit statistics: Disabled
+
+Physical interface: ge-10/2/7, Enabled, Physical link is Up
+  Interface index: 197, SNMP ifIndex: 889
+  Description: Pheobus Copper
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:cb, Hardware address: 54:e0:32:7d:2e:cb
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/7.1201 (Index 470) (SNMP ifIndex 917)
+    Description: [RE]Phoebus port 2
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1201 ]  Encapsulation: ENET2
+    Input packets : 32900981
+    Output packets: 14713272
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.19.160/30, Local: 64.57.19.161,
+        Broadcast: 64.57.19.163
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/2/7.32767 (Index 471) (SNMP ifIndex 918)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/2/8, Enabled, Physical link is Up
+  Interface index: 198, SNMP ifIndex: 890
+  Description: WASH Project RackLan WIX Suite | I2-WASH-WASH2-GIGE-06822
+  Link-level type: Flexible-Ethernet, MTU: 9170, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:cc, Hardware address: 54:e0:32:7d:2e:cc
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 25544 bps (17 pps)
+  Output rate    : 24024 bps (17 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/8.10 (Index 472) (SNMP ifIndex 919)
+    Description: default racklan vlan
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Input packets : 2541111144
+    Output packets: 1373738089
+    Protocol inet, MTU: 9152
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Primary Is-Preferred Is-Primary
+        Destination: 64.57.24.224/27, Local: 64.57.24.225,
+        Broadcast: 64.57.24.255
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/2/8.32767 (Index 473) (SNMP ifIndex 920)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/2/9, Enabled, Physical link is Up
+  Interface index: 199, SNMP ifIndex: 891
+  Description: [RE]ProtoGeni KANS-WASH | I2-KANS-WASH-LSP-05848 [PENDING]
+  Link-level type: Ethernet-CCC, MTU: 9170, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:cd, Hardware address: 54:e0:32:7d:2e:cd
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/2/9.0 (Index 474) (SNMP ifIndex 921)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: Ethernet-CCC
+    Input packets : 796263
+    Output packets: 796285
+    Protocol ccc, MTU: 9170
+
+Physical interface: ge-10/3/0, Enabled, Physical link is Up
+  Interface index: 200, SNMP ifIndex: 894
+  Description: [RE]ProtoGeni ATLA-WASH | I2-ATLA-WASH-LSP-05977
+  Link-level type: Ethernet-CCC, MTU: 9192, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:ed, Hardware address: 54:e0:32:7d:2e:ed
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/0.0 (Index 475) (SNMP ifIndex 922)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: Ethernet-CCC
+    Input packets : 2297505
+    Output packets: 796074
+    Protocol ccc, MTU: 9192
+
+Physical interface: ge-10/3/1, Enabled, Physical link is Up
+  Interface index: 201, SNMP ifIndex: 896
+  Description: [RE]ProtoGeni ION [PENDING]
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:ee, Hardware address: 54:e0:32:7d:2e:ee
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/1.32767 (Index 476) (SNMP ifIndex 923)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/3/2, Enabled, Physical link is Up
+  Interface index: 202, SNMP ifIndex: 897
+  Description: [TRANSIT] Commodity Internet via Level(3) | I2-S06903 | I2-WASH-WASH-GIGE-06901
+  Link-level type: Ethernet, MTU: 1570, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:ef, Hardware address: 54:e0:32:7d:2e:ef
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 8018496 bps (1174 pps)
+  Output rate    : 26688 bps (17 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/2.0 (Index 477) (SNMP ifIndex 924)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Input packets : 36446783260
+    Output packets: 7047833450
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary, User-MTU, Sample-input
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 4.30.228.48/30, Local: 4.30.228.50, Broadcast: 4.30.228.51
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary, User-MTU
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2001:1900:2100::1294/126, Local: 2001:1900:2100::1296
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:32ff:fe7d:2eef
+    Protocol multiservice, MTU: Unlimited
+
+Physical interface: ge-10/3/3, Enabled, Physical link is Up
+  Interface index: 203, SNMP ifIndex: 898
+  Description: [RE]I2-S06738 DCN dcn-sw.wash ge-0/0/22 | I2-WASH-WASH-GIGE-06818
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f0, Hardware address: 54:e0:32:7d:2e:f0
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 704184 bps (111 pps)
+  Output rate    : 42200 bps (41 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/3.548 (Index 478) (SNMP ifIndex 925)
+    Description: I2-S06738 DCN NEWY32AOA-WASH | I2-NEWY32AOA-WASH-LSP-06760
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.548 ] 
+    Encapsulation: VLAN-CCC
+    Input packets : 19220632
+    Output packets: 20064087
+    Protocol ccc, MTU: 9192
+
+  Logical interface ge-10/3/3.2701 (Index 479) (SNMP ifIndex 926)
+    Description: AL2S ATLA-WASH OOB
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2701 ]  Encapsulation: ENET2
+    Input packets : 46839907
+    Output packets: 26352059
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.25.160/29, Local: 64.57.25.162,
+        Broadcast: 64.57.25.167
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/3.2706 (Index 480) (SNMP ifIndex 998)
+    Description: AL2S CLEV-WASH OOB
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2706 ]  Encapsulation: ENET2
+    Input packets : 911469843
+    Output packets: 35304535
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.24.200/29, Local: 64.57.24.202,
+        Broadcast: 64.57.24.207
+        Destination: 64.57.24.200/29, Local: 64.57.24.203,
+        Broadcast: 64.57.24.207
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/3.2710 (Index 481) (SNMP ifIndex 1240)
+    Description: AL2S NEWY-WASH OOB
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2710 ]  Encapsulation: ENET2
+    Input packets : 445043365
+    Output packets: 429747297
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.25.120/29, Local: 64.57.25.122,
+        Broadcast: 64.57.25.127
+        Destination: 64.57.25.120/29, Local: 64.57.25.123,
+        Broadcast: 64.57.25.127
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/3.32767 (Index 482) (SNMP ifIndex 927)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/3/4, Enabled, Physical link is Up
+  Interface index: 204, SNMP ifIndex: 899
+  Description: [RE][TRANSIT] I2-IT-Juniper-EX3200 portname | I2-WASH-WASH2-GIGE-06820
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f1, Hardware address: 54:e0:32:7d:2e:f1
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 385416 bps (303 pps)
+  Output rate    : 136600 bps (290 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/4.20 (Index 483) (SNMP ifIndex 928)
+    Description: [RE][TRANSIT] Internet2 Telepresence | I2-WASH-WASH2-GIGE-09115
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Input packets : 40841610766
+    Output packets: 63598895523
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.22.0/26, Local: 64.57.22.1, Broadcast: 64.57.22.63
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ef01::/64, Local: 2001:468:ef01::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:147d:2ef1
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/4.32767 (Index 484) (SNMP ifIndex 929)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/3/5, Enabled, Physical link is Up
+  Interface index: 205, SNMP ifIndex: 900
+  Description: [RE][TRANSIT] I2-IT-Juniper-EX3200 portname | I2-WASH-WASH2-GIGE-06821
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f2, Hardware address: 54:e0:32:7d:2e:f2
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 454224 bps (121 pps)
+  Output rate    : 434584 bps (127 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/5.30 (Index 485) (SNMP ifIndex 930)
+    Description: [RE][TRANSIT] Internet2 High Bandwidth Services
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.30 ]  Encapsulation: ENET2
+    Input packets : 14848717587
+    Output packets: 13989022192
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.22.112/28, Local: 64.57.22.113,
+        Broadcast: 64.57.22.127
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ef01:4::/64, Local: 2001:468:ef01:4::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:1e7d:2ef2
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/5.31 (Index 486) (SNMP ifIndex 931)
+    Description: [RE][TRANSIT] Internet2 General Services - McLean
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.31 ]  Encapsulation: ENET2
+    Input packets : 733646223
+    Output packets: 775247584
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.22.80/28, Local: 64.57.22.81, Broadcast: 64.57.22.95
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ef01:ffff::/64, Local: 2001:468:ef01:ffff::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:1f7d:2ef2
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/5.32 (Index 487) (SNMP ifIndex 932)
+    Description: [RE][TRANSIT] Eduroam - McLean
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.32 ]  Encapsulation: ENET2
+    Input packets : 4006318636
+    Output packets: 7161036196
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.22.72/30, Local: 64.57.22.73, Broadcast: 64.57.22.75
+    Protocol inet6, MTU: 9000
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ef01:2::/64, Local: 2001:468:ef01:2::1
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:207d:2ef2
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/5.33 (Index 583) (SNMP ifIndex 531)
+    Description: [RE] Internet2 K20 Testing VLAN - McLean
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.33 ]  Encapsulation: ENET2
+    Input packets : 36251391
+    Output packets: 33789587
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.200/30, Local: 64.57.28.202,
+        Broadcast: 64.57.28.203
+    Protocol inet6, MTU: 9174
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:217d:2ef2
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/5.32767 (Index 488) (SNMP ifIndex 933)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/3/6, Enabled, Physical link is Up
+  Interface index: 206, SNMP ifIndex: 901
+  Description: Pheobus SX
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 1000mbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Disabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f3, Hardware address: 54:e0:32:7d:2e:f3
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+  Logical interface ge-10/3/6.1200 (Index 489) (SNMP ifIndex 1083)
+    Description: [RE]Phoebus port 1
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.1200 ]  Encapsulation: ENET2
+    Input packets : 19884
+    Output packets: 7082240
+    Protocol inet, MTU: 9000
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.19.92/30, Local: 64.57.19.93, Broadcast: 64.57.19.95
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ge-10/3/6.32767 (Index 490) (SNMP ifIndex 1084)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ge-10/3/7, Enabled, Physical link is Down
+  Interface index: 207, SNMP ifIndex: 902
+  Description: AVAILABLE 1GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f4, Hardware address: 54:e0:32:7d:2e:f4
+  Last flapped   : 2015-08-26 04:05:15 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  Interface transmit statistics: Disabled
+
+Physical interface: ge-10/3/8, Enabled, Physical link is Down
+  Interface index: 208, SNMP ifIndex: 904
+  Description: AVAILABLE 1GE, NO OPTIC | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f5, Hardware address: 54:e0:32:7d:2e:f5
+  Last flapped   : 2015-08-26 04:05:15 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : LINK
+  Active defects : LINK
+  Interface transmit statistics: Disabled
+
+Physical interface: ge-10/3/9, Enabled, Physical link is Up
+  Interface index: 209, SNMP ifIndex: 905
+  Description: AVAILABLE 1GE, SFP-LX10 | [NO-MONITOR]
+  Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Enabled, Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Current address: 54:e0:32:7d:2e:f6, Hardware address: 54:e0:32:7d:2e:f6
+  Last flapped   : 2015-08-26 04:05:16 UTC (39w3d 11:46 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+  Active alarms  : None
+  Active defects : None
+  Interface transmit statistics: Disabled
+
+Physical interface: ae0, Enabled, Physical link is Up
+  Interface index: 128, SNMP ifIndex: 747
+  Description: BACKBONE: CLEV-WASH LAG | I2-CLEV-WASH-LAG-08896
+  Link-level type: Ethernet, MTU: 9192, Speed: 10Gbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c0, Hardware address: 54:e0:32:7d:2f:c0
+  Last flapped   : 2016-01-09 10:19:28 UTC (20w0d 05:32 ago)
+  Input rate     : 1032 bps (1 pps)
+  Output rate    : 1952 bps (2 pps)
+
+  Logical interface ae0.10 (Index 326) (SNMP ifIndex 811)
+    Description: BACKBONE: CLEV-WASH R&E VLAN via LAG | I2-CLEV-WASH-VLAN-09228
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      22965868          0    8390226147          376
+        Output:      10497106          0    1640504115            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.162/31, Local: 64.57.28.163
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:a:3::/64, Local: 2001:468:a:3::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:a7d:2fc0
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae0.20 (Index 325) (SNMP ifIndex 810)
+    Description: BACKBONE: CLEV-WASH COMMODITY VLAN via LAG | I2-CLEV-WASH-VLAN-09091
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      28206499          1    7796444956          656
+        Output:      17427940          0    3150257411            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.168/31, Local: 64.57.28.169
+    Protocol iso, MTU: 1497
+      Flags: Is-Primary, User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:147d:2fc0
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: Is-Primary, User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae0.32767 (Index 324) (SNMP ifIndex 808)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ae1, Enabled, Physical link is Up
+  Interface index: 129, SNMP ifIndex: 749
+  Description: TR-CPS TransitRail LAG to asbn0:ae0 | I2-ASHB-WASH-LAG-07691
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 30Gbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Disabled, Minimum links needed: 1,
+  Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c1, Hardware address: 54:e0:32:7d:2f:c1
+  Last flapped   : 2016-04-28 06:59:37 UTC (4w2d 08:52 ago)
+  Input rate     : 244355800 bps (28904 pps)
+  Output rate    : 273185696 bps (64457 pps)
+
+  Logical interface ae1.4 (Index 423) (SNMP ifIndex 591)
+    Description: [RE][CPS] Hurricane Electric Peering
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.4 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :   32340649365        253 39947081264952       467064
+        Output:   18033312839        209 7002850972425       678296
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet6, MTU: 1500
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:470:0:227::/126, Local: 2001:470:0:227::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:47d:2fc1
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae1.182 (Index 334) (SNMP ifIndex 821)
+    Description: [TR-CPS] FLR/SOX-ATLA-WASH via Max
+    Flags: Down SNMP-Traps CCC-Down 0x4000 VLAN-Tag [ 0x8100.182 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.186 (Index 333) (SNMP ifIndex 820)
+    Description: [TR-CPS] I2-S08135 dlls0 - asbn0 (01922) | I2-HOUS-WASH-LSP-08132
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.186 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :  570680781033       3292 531886277595412      8564512
+        Output: 1426004036606      16031 455769546672501     62794688
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.210 (Index 363) (SNMP ifIndex 819)
+    Description: [RE][CPS] Customer TransitRail
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.210 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :    8100095162        307 2196305692616       248192
+        Output:  301624693871       2099 46536608453406      1690336
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary, User-MTU, Sample-input
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 64.57.29.0/31, Local: 64.57.29.1
+    Protocol iso, MTU: 1497
+      Flags: Is-Primary, User-MTU
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:f000:100::/64, Local: 2001:468:f000:100::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:d27d:2fc1
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae1.212 (Index 332) (SNMP ifIndex 818)
+    Description: [TR-CPS] Indiana GigaPOP L2
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.212 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.213 (Index 331) (SNMP ifIndex 817)
+    Description: [TR-CPS] Indiana GigaPOP L2
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.213 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.214 (Index 330) (SNMP ifIndex 816)
+    Description: [TR-CPS] Indiana GigaPOP #3
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.214 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.224 (Index 404) (SNMP ifIndex 549)
+    Description: TR-CPS multicast
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.224 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :        313760          0      17492476            0
+        Output:       2160825          0     144735574            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.20.232/30, Local: 64.57.20.234,
+        Broadcast: 64.57.20.235
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae1.585 (Index 402) (SNMP ifIndex 545)
+    Description: [TR-CPS] MERIT via MAX
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.585 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      62813241          2   11807542118         2920
+        Output:      62365223          3    4676847138         1688
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.912 (Index 328) (SNMP ifIndex 814)
+    Description: [TR-CPS] Mississippi Optical Network (MissiON) CPS vlan
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.912 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input : 3708872724191      23666 4976306271601358    227498672
+        Output: 1352948713954      45810 303094981202187    205949680
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.2049 (Index 336) (SNMP ifIndex 544)
+    Description: [TR-CPS] UIUC via CIC L2circuit
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.2049 ] 
+    Encapsulation: VLAN-CCC
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :  140221119276       1384 129142339323337      7574440
+        Output:  232601603936        299 158074805828484      2066704
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol ccc, MTU: 9192
+
+  Logical interface ae1.32767 (Index 327) (SNMP ifIndex 812)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ae2, Enabled, Physical link is Down
+  Interface index: 130, SNMP ifIndex: 751
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c2, Hardware address: 54:e0:32:7d:2f:c2
+  Last flapped   : 2015-11-04 07:07:56 UTC (29w3d 08:44 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae3, Enabled, Physical link is Up
+  Interface index: 131, SNMP ifIndex: 752
+  Description: BACKBONE: NEWY-WASH LAG | I2-NEWY32AOA-WASH-LAG-09027
+  Link-level type: Ethernet, MTU: 9192, Speed: 10Gbps, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c3, Hardware address: 54:e0:32:7d:2f:c3
+  Last flapped   : 2016-05-27 07:36:35 UTC (1d 08:15 ago)
+  Input rate     : 496 bps (0 pps)
+  Output rate    : 16888 bps (3 pps)
+
+  Logical interface ae3.10 (Index 350) (SNMP ifIndex 845)
+    Description: BACKBONE: NEWY-WASH R&E VLAN via LAG | I2-NEWY32AOA-WASH-VLAN-09239
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :     184875857          0  283405855808          216
+        Output:     392975998          0  568036345710            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.198/31, Local: 64.57.28.199
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:9f6::/64, Local: 2001:468:ff:9f6::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:a7d:2fc3
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae3.20 (Index 349) (SNMP ifIndex 844)
+    Description: BACKBONE: NEWY-WASH COMMODITY VLAN via LAG | I2-NEWY32AOA-WASH-VLAN-09103
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :     365660371          0  480742940754          280
+        Output:     105440979          0  149617001423            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.192/31, Local: 64.57.28.193
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:147d:2fc3
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae3.32767 (Index 348) (SNMP ifIndex 842)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ae4, Enabled, Physical link is Down
+  Interface index: 132, SNMP ifIndex: 754
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c4, Hardware address: 54:e0:32:7d:2f:c4
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae5, Enabled, Physical link is Down
+  Interface index: 133, SNMP ifIndex: 755
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c5, Hardware address: 54:e0:32:7d:2f:c5
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae6, Enabled, Physical link is Down
+  Interface index: 134, SNMP ifIndex: 757
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c6, Hardware address: 54:e0:32:7d:2f:c6
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae7, Enabled, Physical link is Down
+  Interface index: 135, SNMP ifIndex: 758
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c7, Hardware address: 54:e0:32:7d:2f:c7
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae8, Enabled, Physical link is Up
+  Interface index: 136, SNMP ifIndex: 759
+  Description: BACKBONE: ATLA-WASH LAG | I2-ATLA-WASH-LAG-06161
+  Link-level type: Flexible-Ethernet, MTU: 9192, Speed: 10Gbps,
+  BPDU Error: None, MAC-REWRITE Error: None, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Disabled, Minimum links needed: 1,
+  Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c8, Hardware address: 54:e0:32:7d:2f:c8
+  Last flapped   : 2016-05-12 04:18:30 UTC (2w2d 11:33 ago)
+  Input rate     : 728 bps (1 pps)
+  Output rate    : 1424 bps (2 pps)
+
+  Logical interface ae8.10 (Index 353) (SNMP ifIndex 849)
+    Description: BACKBONE: ATLA-WASH R&E VLAN via LAG | I2-ATLA-WASH-VLAN-06162
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.10 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      13116690          0    1907856782          240
+        Output:      23589491          0   12418586282            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.6/31, Local: 64.57.28.7
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:109::/64, Local: 2001:468:ff:109::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:a7d:2fc8
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae8.20 (Index 352) (SNMP ifIndex 848)
+    Description: BACKBONE: ATLA-WASH COMMODITY via LAG | I2-ATLA-WASH-VLAN-06163
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.20 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      48521457          1   14458386636          488
+        Output:     120204969          0  132168235297            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 9174
+      Flags: Sendbcast-pkt-to-re, User-MTU, Sample-input
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 64.57.28.58/31, Local: 64.57.28.59
+    Protocol iso, MTU: 1497
+      Flags: User-MTU
+    Protocol inet6, MTU: 9174
+      Flags: User-MTU
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 2001:468:ff:901::/64, Local: 2001:468:ff:901::2
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::56e0:3200:147d:2fc8
+    Protocol mpls, MTU: 9174, Maximum labels: 3
+      Flags: User-MTU
+    Protocol multiservice, MTU: Unlimited
+
+  Logical interface ae8.32767 (Index 351) (SNMP ifIndex 846)
+    Flags: Up SNMP-Traps 0x4004000 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :             0          0             0            0
+        Output:             0          0             0            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol multiservice, MTU: Unlimited
+      Flags: None
+
+Physical interface: ae9, Enabled, Physical link is Down
+  Interface index: 137, SNMP ifIndex: 760
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:c9, Hardware address: 54:e0:32:7d:2f:c9
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae10, Enabled, Physical link is Down
+  Interface index: 138, SNMP ifIndex: 762
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:ca, Hardware address: 54:e0:32:7d:2f:ca
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae11, Enabled, Physical link is Down
+  Interface index: 139, SNMP ifIndex: 763
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:cb, Hardware address: 54:e0:32:7d:2f:cb
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae12, Enabled, Physical link is Down
+  Interface index: 140, SNMP ifIndex: 765
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:cc, Hardware address: 54:e0:32:7d:2f:cc
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae13, Enabled, Physical link is Down
+  Interface index: 141, SNMP ifIndex: 767
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:cd, Hardware address: 54:e0:32:7d:2f:cd
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: ae14, Enabled, Physical link is Down
+  Interface index: 142, SNMP ifIndex: 769
+  Link-level type: Ethernet, MTU: 1514, Speed: Unspecified, BPDU Error: None,
+  MAC-REWRITE Error: None, Loopback: Disabled, Source filtering: Disabled,
+  Flow control: Disabled, Minimum links needed: 1, Minimum bandwidth needed: 0
+  Device flags   : Present Running
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Current address: 54:e0:32:7d:2f:ce, Hardware address: 54:e0:32:7d:2f:ce
+  Last flapped   : 2015-08-26 04:01:25 UTC (39w3d 11:50 ago)
+  Input rate     : 0 bps (0 pps)
+  Output rate    : 0 bps (0 pps)
+
+Physical interface: cbp0, Enabled, Physical link is Up
+  Interface index: 144, SNMP ifIndex: 502
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 54:e0:32:7d:28:11, Hardware address: 54:e0:32:7d:28:11
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: demux0, Enabled, Physical link is Up
+  Interface index: 143, SNMP ifIndex: 501
+  Type: Software-Pseudo, MTU: 9192, Clocking: 1
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: dsc, Enabled, Physical link is Up
+  Interface index: 5, SNMP ifIndex: 5
+  Type: Software-Pseudo, MTU: Unlimited
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface dsc.0 (Index 320) (SNMP ifIndex 616)
+    Flags: Down Point-To-Point SNMP-Traps Encapsulation: Unspecified
+    Protocol inet, MTU: Unlimited
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 198.32.11.7, Local: 198.32.11.6
+
+Physical interface: em0, Enabled, Physical link is Up
+  Interface index: 8, SNMP ifIndex: 17
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Current address: 02:00:00:00:00:04, Hardware address: 02:00:00:00:00:04
+  Last flapped   : 2015-08-21 20:19:33 UTC (40w0d 19:32 ago)
+    Input packets : 23465001007
+    Output packets: 16351533866
+
+  Logical interface em0.0 (Index 3) (SNMP ifIndex 18)
+    Flags: Up SNMP-Traps 0x4000000 Encapsulation: ENET2
+    Input packets : 23465001007
+    Output packets: 16351533866
+    Protocol inet, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Preferred
+        Destination: 10/8, Local: 10.0.0.4, Broadcast: 10.255.255.255
+      Addresses, Flags: Preferred Kernel Is-Preferred
+        Destination: 128/2, Local: 128.0.0.1, Broadcast: 191.255.255.255
+      Addresses, Flags: Primary Is-Default Is-Primary
+        Destination: 128/2, Local: 128.0.0.4, Broadcast: 191.255.255.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::200:ff:fe00:4
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: fec0::/64, Local: fec0::a:0:0:4
+    Protocol tnp, MTU: 1500
+      Flags: Primary, Is-Primary
+      Addresses
+        Local: 0x4
+
+Physical interface: em1, Enabled, Physical link is Up
+  Interface index: 9, SNMP ifIndex: 23
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Current address: 02:00:01:00:00:04, Hardware address: 02:00:01:00:00:04
+  Last flapped   : 2015-08-21 20:19:33 UTC (40w0d 19:32 ago)
+    Input packets : 153981877
+    Output packets: 82268924
+
+  Logical interface em1.0 (Index 4) (SNMP ifIndex 24)
+    Flags: Up SNMP-Traps 0x4000000 Encapsulation: ENET2
+    Input packets : 153981877
+    Output packets: 82268924
+    Protocol inet, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred
+        Destination: 10/8, Local: 10.0.0.4, Broadcast: 10.255.255.255
+      Addresses, Flags: Preferred Kernel Is-Preferred
+        Destination: 128/2, Local: 128.0.0.1, Broadcast: 191.255.255.255
+      Addresses, Flags: Primary Is-Primary
+        Destination: 128/2, Local: 128.0.0.4, Broadcast: 191.255.255.255
+    Protocol inet6, MTU: 1500
+      Flags: None
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::200:1ff:fe00:4
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: fec0::/64, Local: fec0::a:0:0:4
+    Protocol tnp, MTU: 1500
+      Flags: None
+      Addresses
+        Local: 0x4
+
+Physical interface: fxp0, Administratively down, Physical link is Down
+  Interface index: 64, SNMP ifIndex: 1
+  Description: Management Ethernet - Unused
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514
+  Device flags   : Present
+  Interface flags: Hardware-Down Down SNMP-Traps
+  Current address: 00:a0:a5:81:5e:c2, Hardware address: 00:a0:a5:81:5e:c2
+  Last flapped   : 2015-08-21 20:19:23 UTC (40w0d 19:32 ago)
+    Input packets : 0
+    Output packets: 0
+
+  Logical interface fxp0.0 (Index 5) (SNMP ifIndex 13)
+    Flags: Device-Down SNMP-Traps 0x4000000 Encapsulation: ENET2
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Preferred Is-Primary
+        Destination: 156.56.6/24, Local: 156.56.6.223, Broadcast: 156.56.6.255
+
+Physical interface: gre, Enabled, Physical link is Up
+  Interface index: 10, SNMP ifIndex: 8
+  Type: GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: ipip, Enabled, Physical link is Up
+  Interface index: 11, SNMP ifIndex: 9
+  Type: IPIP, Link-level type: IP-over-IP, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: irb, Enabled, Physical link is Up
+  Interface index: 147, SNMP ifIndex: 505
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 54:e0:32:7d:2f:f0, Hardware address: 54:e0:32:7d:2f:f0
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: lo0, Enabled, Physical link is Up
+  Interface index: 6, SNMP ifIndex: 6
+  Type: Loopback, MTU: Unlimited
+  Device flags   : Present Running Loopback
+  Interface flags: SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 11589842
+    Output packets: 11589842
+
+  Logical interface lo0.0 (Index 322) (SNMP ifIndex 16)
+    Description: Internal Peering Point
+    Flags: Down SNMP-Traps Encapsulation: Unspecified
+    Input packets : 1939817
+    Output packets: 1939817
+    Protocol inet, MTU: Unlimited
+      Flags: Sendbcast-pkt-to-re
+      Addresses, Flags: Preferred Is-Default Is-Primary
+        Local: 64.57.28.249
+      Addresses
+        Local: 64.57.31.249
+      Addresses
+        Local: 198.32.8.238
+    Protocol iso, MTU: Unlimited
+      Addresses, Flags: Is-Default Is-Primary
+        Local: 49.0000.0000.0000.0300
+    Protocol inet6, MTU: Unlimited
+      Addresses, Flags: Is-Default Is-Primary
+        Local: 2001:468:9::1
+        Local: fe80::2a0:a50f:fc81:5ec2
+
+  Logical interface lo0.1 (Index 365) (SNMP ifIndex 617)
+    Description: Loopback for CPS VRF
+    Flags: Down SNMP-Traps Encapsulation: Unspecified
+    Input packets : 88193
+    Output packets: 88193
+    Protocol inet, MTU: Unlimited
+      Flags: Sendbcast-pkt-to-re
+    Protocol inet6, MTU: Unlimited
+      Addresses, Flags: Is-Default Is-Primary
+        Local: 2001:468:ff09::1
+        Local: fe80::2a0:a50f:fc81:5ec2
+
+  Logical interface lo0.16384 (Index 321) (SNMP ifIndex 21)
+    Flags: Down SNMP-Traps Encapsulation: Unspecified
+    Input packets : 0
+    Output packets: 0
+    Protocol inet, MTU: Unlimited
+      Addresses
+        Local: 127.0.0.1
+
+  Logical interface lo0.16385 (Index 323) (SNMP ifIndex 22)
+    Flags: Down SNMP-Traps Encapsulation: Unspecified
+    Input packets : 9075221
+    Output packets: 9075221
+    Protocol inet, MTU: Unlimited
+
+Physical interface: lsi, Enabled, Physical link is Up
+  Interface index: 4, SNMP ifIndex: 4
+  Type: Software-Pseudo, Link-level type: LSI, MTU: 1496, Speed: Unlimited
+  Device flags   : Present Running
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 4164514
+    Output packets: 0
+
+  Logical interface lsi.0 (Index 360) (SNMP ifIndex 613)
+    Flags: Up Point-To-Point SNMP-Traps 0x4000000 Encapsulation: LSI-NULL
+    Input packets : 843800
+    Output packets: 0
+    Protocol inet, MTU: 1496
+      Flags: None
+    Protocol iso, MTU: 1496
+      Flags: None
+    Protocol inet6, MTU: 1496
+      Flags: None
+
+  Logical interface lsi.1 (Index 361) (SNMP ifIndex 614)
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    Input packets : 6749258
+    Output packets: 0
+    Protocol inet, MTU: 1496
+      Flags: None
+    Protocol iso, MTU: 1496
+      Flags: Is-Primary
+    Protocol inet6, MTU: 1496
+      Flags: None
+
+  Logical interface lsi.2 (Index 362) (SNMP ifIndex 615)
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    Input packets : 2156199
+    Output packets: 0
+    Protocol inet, MTU: 1496
+      Flags: None
+    Protocol iso, MTU: 1496
+      Flags: Is-Primary
+    Protocol inet6, MTU: 1496
+      Flags: None
+
+Physical interface: mtun, Enabled, Physical link is Up
+  Interface index: 65, SNMP ifIndex: 12
+  Type: Multicast-GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pimd, Enabled, Physical link is Up
+  Interface index: 26, SNMP ifIndex: 11
+  Type: PIMD, Link-level type: PIM-Decapsulator, MTU: Unlimited,
+  Speed: Unlimited
+  Device flags   : Present Running
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pime, Enabled, Physical link is Up
+  Interface index: 25, SNMP ifIndex: 10
+  Type: PIME, Link-level type: PIM-Encapsulator, MTU: Unlimited,
+  Speed: Unlimited
+  Device flags   : Present Running
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pip0, Enabled, Physical link is Up
+  Interface index: 145, SNMP ifIndex: 503
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+  Current address: 54:e0:32:7d:2f:b0, Hardware address: 54:e0:32:7d:2f:b0
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+
+Physical interface: pp0, Enabled, Physical link is Up
+  Interface index: 146, SNMP ifIndex: 504
+  Type: PPPoE, Link-level type: PPPoE, MTU: 1532
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+  Link type      : Full-Duplex
+  Link flags     : None
+
+Physical interface: tap, Enabled, Physical link is Up
+  Interface index: 12, SNMP ifIndex: 7
+  Type: Software-Pseudo, Link-level type: Interface-Specific, MTU: Unlimited,
+  Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+  Link flags     : None
+  Last flapped   : Never
+    Input packets : 0
+    Output packets: 0
+

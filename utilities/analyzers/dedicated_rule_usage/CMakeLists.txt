@@ -1,0 +1,2 @@
+add_executable(dedicated_rule_usage_analyzer dedicated_rule_usage_analyzer.cpp)
+target_link_libraries(dedicated_rule_usage_analyzer util)

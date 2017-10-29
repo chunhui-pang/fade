@@ -1,0 +1,5 @@
+add_library(ilp_option_parser option_parser.cpp)
+target_link_libraries(ilp_option_parser boost_program_options)
+
+add_library(ilp_config_parser config_parser.cpp)
+target_link_libraries(ilp_config_parser switch aggregated_flow)
