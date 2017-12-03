@@ -14,6 +14,15 @@ Such forwarding anomalies would forward traffic along wrong paths, and result in
 6. Some suspicious sub-flows would be identified if any constraint fails..
 7. If the suspicious sub-flows is short enough, we could identify the abnormal flow rules. Otherwise, we would start another similar detection task (localization task)
 
+```
+----------      -------------      ----------------       -----------------       ----------------        ---------------------         ---------------------        ---------------------       ----------------------      ----------
+|Topology | --> | rule graph | --> | flow selection | --> | probe selection | --> | rule generation | --> | constraint generator | --> | statistics collector | --> | constraint evaluator | --> | suspicious sub-flow | --> | anomaly |
+----------      -------------      ----------------       -----------------       -----------------       ----------------------       -----------------------       ----------------------      ----------------------      ----------
+                                                                 ^                                                                                                                                       ^
+                                                                 |_______________________________________________________________________________________________________________________________________|
+```
+
+
 ## Directories
 
 ```
